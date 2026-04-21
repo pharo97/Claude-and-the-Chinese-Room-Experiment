@@ -1,0 +1,71 @@
+{
+  "total_rows": 150,
+  "overall_accuracy": 0.8,
+  "per_experiment": {
+    "symbol_substitution": {
+      "n": 50,
+      "accuracy": 1.0,
+      "failure_breakdown": {}
+    },
+    "rule_generalization": {
+      "n": 50,
+      "accuracy": 0.54,
+      "failure_breakdown": {
+        "wrong_answer": 22,
+        "hallucinated_rule": 1
+      }
+    },
+    "rephrasing": {
+      "n": 50,
+      "accuracy": 0.86,
+      "failure_breakdown": {
+        "wrong_answer": 4,
+        "wrong_format": 3
+      }
+    }
+  },
+  "per_provider": {
+    "symbol_substitution": {
+      "anthropic": {
+        "n": 50,
+        "accuracy": 1.0
+      }
+    },
+    "rule_generalization": {
+      "anthropic": {
+        "n": 50,
+        "accuracy": 0.54
+      }
+    },
+    "rephrasing": {
+      "anthropic": {
+        "n": 50,
+        "accuracy": 0.86
+      }
+    }
+  },
+  "rephrasing_consistency": {
+    "anthropic": {
+      "C": {
+        "accuracy": 0.6667,
+        "disagreement_rate": 0.4444,
+        "n": 12
+      },
+      "NO": {
+        "accuracy": 0.85,
+        "disagreement_rate": 0.255,
+        "n": 20
+      },
+      "10": {
+        "accuracy": 1.0,
+        "disagreement_rate": 0.0,
+        "n": 9
+      },
+      "120": {
+        "accuracy": 1.0,
+        "disagreement_rate": 0.0,
+        "n": 9
+      }
+    }
+  }
+}

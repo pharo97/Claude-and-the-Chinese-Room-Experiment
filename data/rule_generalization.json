@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "rule_000",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 356: YES\n- 31: YES\n- 612: NO\n- 577: NO\n\nIs 3780 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 3780,
+      "examples": [
+        [
+          356,
+          true
+        ],
+        [
+          31,
+          true
+        ],
+        [
+          612,
+          false
+        ],
+        [
+          577,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_001",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 612: NO\n- 235: YES\n- 17: YES\n- 82: YES\n\nIs 974 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 974,
+      "examples": [
+        [
+          612,
+          false
+        ],
+        [
+          235,
+          true
+        ],
+        [
+          17,
+          true
+        ],
+        [
+          82,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_002",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 244: YES\n- 79: YES\n- 937: NO\n- 42: YES\n\nIs 5423 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 5423,
+      "examples": [
+        [
+          244,
+          true
+        ],
+        [
+          79,
+          true
+        ],
+        [
+          937,
+          false
+        ],
+        [
+          42,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_003",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 82: YES\n- 536: YES\n- 253: YES\n- 295: YES\n\nIs 7963 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 7963,
+      "examples": [
+        [
+          82,
+          true
+        ],
+        [
+          536,
+          true
+        ],
+        [
+          253,
+          true
+        ],
+        [
+          295,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_004",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 229: NO\n- 562: NO\n- 145: YES\n- 750: YES\n\nIs 9365 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 9365,
+      "examples": [
+        [
+          229,
+          false
+        ],
+        [
+          562,
+          false
+        ],
+        [
+          145,
+          true
+        ],
+        [
+          750,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_005",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 600: YES\n- 494: NO\n- 258: NO\n- 813: YES\n\nIs 7759 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 7759,
+      "examples": [
+        [
+          600,
+          true
+        ],
+        [
+          494,
+          false
+        ],
+        [
+          258,
+          false
+        ],
+        [
+          813,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_006",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 836: NO\n- 426: YES\n- 204: YES\n- 106: NO\n\nIs 1598 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1598,
+      "examples": [
+        [
+          836,
+          false
+        ],
+        [
+          426,
+          true
+        ],
+        [
+          204,
+          true
+        ],
+        [
+          106,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_007",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 684: YES\n- 451: YES\n- 372: YES\n- 443: NO\n\nIs 6745 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 6745,
+      "examples": [
+        [
+          684,
+          true
+        ],
+        [
+          451,
+          true
+        ],
+        [
+          372,
+          true
+        ],
+        [
+          443,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_008",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 488: YES\n- 894: NO\n- 756: YES\n- 65: NO\n\nIs 1622 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1622,
+      "examples": [
+        [
+          488,
+          true
+        ],
+        [
+          894,
+          false
+        ],
+        [
+          756,
+          true
+        ],
+        [
+          65,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_009",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 72: NO\n- 422: YES\n- 755: NO\n- 357: NO\n\nIs 1800 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1800,
+      "examples": [
+        [
+          72,
+          false
+        ],
+        [
+          422,
+          true
+        ],
+        [
+          755,
+          false
+        ],
+        [
+          357,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_010",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 264: YES\n- 206: YES\n- 204: YES\n- 559: NO\n\nIs 7360 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 7360,
+      "examples": [
+        [
+          264,
+          true
+        ],
+        [
+          206,
+          true
+        ],
+        [
+          204,
+          true
+        ],
+        [
+          559,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_011",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 153: NO\n- 442: YES\n- 197: NO\n- 295: YES\n\nIs 7589 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 7589,
+      "examples": [
+        [
+          153,
+          false
+        ],
+        [
+          442,
+          true
+        ],
+        [
+          197,
+          false
+        ],
+        [
+          295,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_012",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 265: NO\n- 905: YES\n- 955: NO\n- 87: NO\n\nIs 7270 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 7270,
+      "examples": [
+        [
+          265,
+          false
+        ],
+        [
+          905,
+          true
+        ],
+        [
+          955,
+          false
+        ],
+        [
+          87,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_013",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 837: YES\n- 892: NO\n- 886: YES\n- 573: NO\n\nIs 1614 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 1614,
+      "examples": [
+        [
+          837,
+          true
+        ],
+        [
+          892,
+          false
+        ],
+        [
+          886,
+          true
+        ],
+        [
+          573,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_014",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 61: NO\n- 677: YES\n- 563: YES\n- 866: YES\n\nIs 251 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 251,
+      "examples": [
+        [
+          61,
+          false
+        ],
+        [
+          677,
+          true
+        ],
+        [
+          563,
+          true
+        ],
+        [
+          866,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_015",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 105: YES\n- 958: YES\n- 781: YES\n- 879: YES\n\nIs 3882 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 3882,
+      "examples": [
+        [
+          105,
+          true
+        ],
+        [
+          958,
+          true
+        ],
+        [
+          781,
+          true
+        ],
+        [
+          879,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_016",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 180: NO\n- 426: YES\n- 507: YES\n- 502: NO\n\nIs 3512 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 3512,
+      "examples": [
+        [
+          180,
+          false
+        ],
+        [
+          426,
+          true
+        ],
+        [
+          507,
+          true
+        ],
+        [
+          502,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_017",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 895: YES\n- 420: YES\n- 934: YES\n- 70: NO\n\nIs 2707 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 2707,
+      "examples": [
+        [
+          895,
+          true
+        ],
+        [
+          420,
+          true
+        ],
+        [
+          934,
+          true
+        ],
+        [
+          70,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_018",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 398: YES\n- 12: NO\n- 409: NO\n- 281: NO\n\nIs 7464 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 7464,
+      "examples": [
+        [
+          398,
+          true
+        ],
+        [
+          12,
+          false
+        ],
+        [
+          409,
+          false
+        ],
+        [
+          281,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_019",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 302: NO\n- 443: NO\n- 723: YES\n- 990: YES\n\nIs 9115 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 9115,
+      "examples": [
+        [
+          302,
+          false
+        ],
+        [
+          443,
+          false
+        ],
+        [
+          723,
+          true
+        ],
+        [
+          990,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_020",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 687: NO\n- 745: YES\n- 508: NO\n- 168: NO\n\nIs 3121 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 3121,
+      "examples": [
+        [
+          687,
+          false
+        ],
+        [
+          745,
+          true
+        ],
+        [
+          508,
+          false
+        ],
+        [
+          168,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_021",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 313: NO\n- 232: NO\n- 69: NO\n- 603: NO\n\nIs 8893 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 8893,
+      "examples": [
+        [
+          313,
+          false
+        ],
+        [
+          232,
+          false
+        ],
+        [
+          69,
+          false
+        ],
+        [
+          603,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_022",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 72: NO\n- 775: NO\n- 331: NO\n- 68: YES\n\nIs 831 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 831,
+      "examples": [
+        [
+          72,
+          false
+        ],
+        [
+          775,
+          false
+        ],
+        [
+          331,
+          false
+        ],
+        [
+          68,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_023",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 608: YES\n- 498: NO\n- 524: NO\n- 951: NO\n\nIs 8711 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 8711,
+      "examples": [
+        [
+          608,
+          true
+        ],
+        [
+          498,
+          false
+        ],
+        [
+          524,
+          false
+        ],
+        [
+          951,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_024",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 171: NO\n- 68: YES\n- 993: NO\n- 530: YES\n\nIs 1322 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 1322,
+      "examples": [
+        [
+          171,
+          false
+        ],
+        [
+          68,
+          true
+        ],
+        [
+          993,
+          false
+        ],
+        [
+          530,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_025",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 881: NO\n- 200: YES\n- 80: YES\n- 619: YES\n\nIs 1123 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1123,
+      "examples": [
+        [
+          881,
+          false
+        ],
+        [
+          200,
+          true
+        ],
+        [
+          80,
+          true
+        ],
+        [
+          619,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_026",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 701: YES\n- 892: NO\n- 250: NO\n- 423: NO\n\nIs 1974 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1974,
+      "examples": [
+        [
+          701,
+          true
+        ],
+        [
+          892,
+          false
+        ],
+        [
+          250,
+          false
+        ],
+        [
+          423,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_027",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 974: YES\n- 921: YES\n- 593: NO\n- 262: YES\n\nIs 9495 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 9495,
+      "examples": [
+        [
+          974,
+          true
+        ],
+        [
+          921,
+          true
+        ],
+        [
+          593,
+          false
+        ],
+        [
+          262,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_028",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 618: NO\n- 50: NO\n- 644: YES\n- 93: YES\n\nIs 6878 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 6878,
+      "examples": [
+        [
+          618,
+          false
+        ],
+        [
+          50,
+          false
+        ],
+        [
+          644,
+          true
+        ],
+        [
+          93,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_029",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 683: NO\n- 607: NO\n- 588: NO\n- 545: YES\n\nIs 5193 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 5193,
+      "examples": [
+        [
+          683,
+          false
+        ],
+        [
+          607,
+          false
+        ],
+        [
+          588,
+          false
+        ],
+        [
+          545,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_030",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 967: YES\n- 277: YES\n- 219: YES\n- 695: YES\n\nIs 5157 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 5157,
+      "examples": [
+        [
+          967,
+          true
+        ],
+        [
+          277,
+          true
+        ],
+        [
+          219,
+          true
+        ],
+        [
+          695,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_031",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 254: NO\n- 281: NO\n- 415: YES\n- 144: NO\n\nIs 4925 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 4925,
+      "examples": [
+        [
+          254,
+          false
+        ],
+        [
+          281,
+          false
+        ],
+        [
+          415,
+          true
+        ],
+        [
+          144,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_032",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 478: NO\n- 333: NO\n- 961: YES\n- 779: NO\n\nIs 1198 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1198,
+      "examples": [
+        [
+          478,
+          false
+        ],
+        [
+          333,
+          false
+        ],
+        [
+          961,
+          true
+        ],
+        [
+          779,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_033",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 19: YES\n- 479: YES\n- 646: YES\n- 586: NO\n\nIs 1648 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1648,
+      "examples": [
+        [
+          19,
+          true
+        ],
+        [
+          479,
+          true
+        ],
+        [
+          646,
+          true
+        ],
+        [
+          586,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_034",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 85: NO\n- 560: NO\n- 228: YES\n- 528: NO\n\nIs 4355 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 4355,
+      "examples": [
+        [
+          85,
+          false
+        ],
+        [
+          560,
+          false
+        ],
+        [
+          228,
+          true
+        ],
+        [
+          528,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_035",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 145: YES\n- 965: YES\n- 367: YES\n- 912: YES\n\nIs 1137 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 1137,
+      "examples": [
+        [
+          145,
+          true
+        ],
+        [
+          965,
+          true
+        ],
+        [
+          367,
+          true
+        ],
+        [
+          912,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_036",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 910: YES\n- 260: YES\n- 388: NO\n- 301: YES\n\nIs 2594 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 2594,
+      "examples": [
+        [
+          910,
+          true
+        ],
+        [
+          260,
+          true
+        ],
+        [
+          388,
+          false
+        ],
+        [
+          301,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_037",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 458: NO\n- 863: NO\n- 566: NO\n- 730: YES\n\nIs 4966 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 4966,
+      "examples": [
+        [
+          458,
+          false
+        ],
+        [
+          863,
+          false
+        ],
+        [
+          566,
+          false
+        ],
+        [
+          730,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_038",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 636: NO\n- 836: NO\n- 679: YES\n- 551: NO\n\nIs 138 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 138,
+      "examples": [
+        [
+          636,
+          false
+        ],
+        [
+          836,
+          false
+        ],
+        [
+          679,
+          true
+        ],
+        [
+          551,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_039",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 693: YES\n- 846: YES\n- 577: NO\n- 316: YES\n\nIs 1707 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1707,
+      "examples": [
+        [
+          693,
+          true
+        ],
+        [
+          846,
+          true
+        ],
+        [
+          577,
+          false
+        ],
+        [
+          316,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_040",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 971: NO\n- 909: YES\n- 147: YES\n- 280: YES\n\nIs 1901 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 1901,
+      "examples": [
+        [
+          971,
+          false
+        ],
+        [
+          909,
+          true
+        ],
+        [
+          147,
+          true
+        ],
+        [
+          280,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_041",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 921: YES\n- 119: NO\n- 770: YES\n- 576: YES\n\nIs 2556 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 2556,
+      "examples": [
+        [
+          921,
+          true
+        ],
+        [
+          119,
+          false
+        ],
+        [
+          770,
+          true
+        ],
+        [
+          576,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_042",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 288: YES\n- 298: NO\n- 629: NO\n- 225: NO\n\nIs 5627 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 5627,
+      "examples": [
+        [
+          288,
+          true
+        ],
+        [
+          298,
+          false
+        ],
+        [
+          629,
+          false
+        ],
+        [
+          225,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_043",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 218: NO\n- 713: NO\n- 659: YES\n- 883: NO\n\nIs 4335 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 4335,
+      "examples": [
+        [
+          218,
+          false
+        ],
+        [
+          713,
+          false
+        ],
+        [
+          659,
+          true
+        ],
+        [
+          883,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_044",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 527: YES\n- 510: YES\n- 267: NO\n- 937: NO\n\nIs 842 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 842,
+      "examples": [
+        [
+          527,
+          true
+        ],
+        [
+          510,
+          true
+        ],
+        [
+          267,
+          false
+        ],
+        [
+          937,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_045",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 104: NO\n- 659: YES\n- 443: NO\n- 859: YES\n\nIs 4543 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 4543,
+      "examples": [
+        [
+          104,
+          false
+        ],
+        [
+          659,
+          true
+        ],
+        [
+          443,
+          false
+        ],
+        [
+          859,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_046",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 55: YES\n- 13: YES\n- 351: NO\n- 799: NO\n\nIs 2153 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 2153,
+      "examples": [
+        [
+          55,
+          true
+        ],
+        [
+          13,
+          true
+        ],
+        [
+          351,
+          false
+        ],
+        [
+          799,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_047",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 662: YES\n- 278: NO\n- 175: NO\n- 769: YES\n\nIs 7249 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 7249,
+      "examples": [
+        [
+          662,
+          true
+        ],
+        [
+          278,
+          false
+        ],
+        [
+          175,
+          false
+        ],
+        [
+          769,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_048",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 574: YES\n- 732: YES\n- 447: NO\n- 584: NO\n\nIs 168 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 168,
+      "examples": [
+        [
+          574,
+          true
+        ],
+        [
+          732,
+          true
+        ],
+        [
+          447,
+          false
+        ],
+        [
+          584,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_049",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 124: NO\n- 87: NO\n- 977: NO\n- 914: YES\n\nIs 2452 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 2452,
+      "examples": [
+        [
+          124,
+          false
+        ],
+        [
+          87,
+          false
+        ],
+        [
+          977,
+          false
+        ],
+        [
+          914,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_050",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 568: NO\n- 46: YES\n- 864: YES\n- 388: NO\n\nIs 9553 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 9553,
+      "examples": [
+        [
+          568,
+          false
+        ],
+        [
+          46,
+          true
+        ],
+        [
+          864,
+          true
+        ],
+        [
+          388,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_051",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 575: NO\n- 161: YES\n- 450: NO\n- 140: NO\n\nIs 695 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 695,
+      "examples": [
+        [
+          575,
+          false
+        ],
+        [
+          161,
+          true
+        ],
+        [
+          450,
+          false
+        ],
+        [
+          140,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_052",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 325: YES\n- 383: YES\n- 930: YES\n- 965: YES\n\nIs 663 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 663,
+      "examples": [
+        [
+          325,
+          true
+        ],
+        [
+          383,
+          true
+        ],
+        [
+          930,
+          true
+        ],
+        [
+          965,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_053",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 930: YES\n- 376: YES\n- 225: NO\n- 708: NO\n\nIs 4098 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 4098,
+      "examples": [
+        [
+          930,
+          true
+        ],
+        [
+          376,
+          true
+        ],
+        [
+          225,
+          false
+        ],
+        [
+          708,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_054",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 692: NO\n- 115: NO\n- 372: YES\n- 808: YES\n\nIs 9183 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 9183,
+      "examples": [
+        [
+          692,
+          false
+        ],
+        [
+          115,
+          false
+        ],
+        [
+          372,
+          true
+        ],
+        [
+          808,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_055",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 915: NO\n- 905: YES\n- 426: YES\n- 645: NO\n\nIs 2542 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 2542,
+      "examples": [
+        [
+          915,
+          false
+        ],
+        [
+          905,
+          true
+        ],
+        [
+          426,
+          true
+        ],
+        [
+          645,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_056",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 957: NO\n- 962: NO\n- 252: NO\n- 895: YES\n\nIs 2672 a frog-number? Answer only YES or NO.",
+    "expected_answer": "NO",
+    "metadata": {
+      "query": 2672,
+      "examples": [
+        [
+          957,
+          false
+        ],
+        [
+          962,
+          false
+        ],
+        [
+          252,
+          false
+        ],
+        [
+          895,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_057",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 829: NO\n- 840: YES\n- 191: NO\n- 912: YES\n\nIs 6765 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 6765,
+      "examples": [
+        [
+          829,
+          false
+        ],
+        [
+          840,
+          true
+        ],
+        [
+          191,
+          false
+        ],
+        [
+          912,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_058",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 35: YES\n- 193: NO\n- 764: NO\n- 956: YES\n\nIs 5452 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 5452,
+      "examples": [
+        [
+          35,
+          true
+        ],
+        [
+          193,
+          false
+        ],
+        [
+          764,
+          false
+        ],
+        [
+          956,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rule_059",
+    "experiment_type": "rule_generalization",
+    "prompt": "A number is a 'frog-number' based on a hidden rule. Examples:\n- 811: YES\n- 963: YES\n- 431: YES\n- 831: YES\n\nIs 4075 a frog-number? Answer only YES or NO.",
+    "expected_answer": "YES",
+    "metadata": {
+      "query": 4075,
+      "examples": [
+        [
+          811,
+          true
+        ],
+        [
+          963,
+          true
+        ],
+        [
+          431,
+          true
+        ],
+        [
+          831,
+          true
+        ]
+      ]
+    }
+  }
+]

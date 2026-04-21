@@ -1,0 +1,722 @@
+[
+  {
+    "id": "sym_000",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 41 zorp 8\nReturn only the numeric answer.",
+    "expected_answer": "49",
+    "metadata": {
+      "a": 41,
+      "b": 8,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_001",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 48 blix 18\nReturn only the numeric answer.",
+    "expected_answer": "30",
+    "metadata": {
+      "a": 48,
+      "b": 18,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_002",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 15 zorp 9\nReturn only the numeric answer.",
+    "expected_answer": "24",
+    "metadata": {
+      "a": 15,
+      "b": 9,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_003",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 44 zorp 48\nReturn only the numeric answer.",
+    "expected_answer": "92",
+    "metadata": {
+      "a": 44,
+      "b": 48,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_004",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 38 zorp 28\nReturn only the numeric answer.",
+    "expected_answer": "66",
+    "metadata": {
+      "a": 38,
+      "b": 28,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_005",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 2 blix 6\nReturn only the numeric answer.",
+    "expected_answer": "-4",
+    "metadata": {
+      "a": 2,
+      "b": 6,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_006",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 15 zorp 33\nReturn only the numeric answer.",
+    "expected_answer": "48",
+    "metadata": {
+      "a": 15,
+      "b": 33,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_007",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 30 grint 2\nReturn only the numeric answer.",
+    "expected_answer": "15.0",
+    "metadata": {
+      "a": 30,
+      "b": 2,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_008",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 38 zorp 18\nReturn only the numeric answer.",
+    "expected_answer": "56",
+    "metadata": {
+      "a": 38,
+      "b": 18,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_009",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 36 grint 4\nReturn only the numeric answer.",
+    "expected_answer": "9.0",
+    "metadata": {
+      "a": 36,
+      "b": 4,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_010",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 10 plonk 14\nReturn only the numeric answer.",
+    "expected_answer": "140",
+    "metadata": {
+      "a": 10,
+      "b": 14,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_011",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 12 grint 1\nReturn only the numeric answer.",
+    "expected_answer": "12.0",
+    "metadata": {
+      "a": 12,
+      "b": 1,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_012",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 23 plonk 39\nReturn only the numeric answer.",
+    "expected_answer": "897",
+    "metadata": {
+      "a": 23,
+      "b": 39,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_013",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 13 grint 1\nReturn only the numeric answer.",
+    "expected_answer": "13.0",
+    "metadata": {
+      "a": 13,
+      "b": 1,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_014",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 6 plonk 36\nReturn only the numeric answer.",
+    "expected_answer": "216",
+    "metadata": {
+      "a": 6,
+      "b": 36,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_015",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 41 plonk 40\nReturn only the numeric answer.",
+    "expected_answer": "1640",
+    "metadata": {
+      "a": 41,
+      "b": 40,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_016",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 37 zorp 13\nReturn only the numeric answer.",
+    "expected_answer": "50",
+    "metadata": {
+      "a": 37,
+      "b": 13,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_017",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 3 blix 43\nReturn only the numeric answer.",
+    "expected_answer": "-40",
+    "metadata": {
+      "a": 3,
+      "b": 43,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_018",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 50 zorp 19\nReturn only the numeric answer.",
+    "expected_answer": "69",
+    "metadata": {
+      "a": 50,
+      "b": 19,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_019",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 60 grint 4\nReturn only the numeric answer.",
+    "expected_answer": "15.0",
+    "metadata": {
+      "a": 60,
+      "b": 4,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_020",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 41 blix 24\nReturn only the numeric answer.",
+    "expected_answer": "17",
+    "metadata": {
+      "a": 41,
+      "b": 24,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_021",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 24 blix 23\nReturn only the numeric answer.",
+    "expected_answer": "1",
+    "metadata": {
+      "a": 24,
+      "b": 23,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_022",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 43 zorp 18\nReturn only the numeric answer.",
+    "expected_answer": "61",
+    "metadata": {
+      "a": 43,
+      "b": 18,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_023",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 39 blix 41\nReturn only the numeric answer.",
+    "expected_answer": "-2",
+    "metadata": {
+      "a": 39,
+      "b": 41,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_024",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 35 blix 47\nReturn only the numeric answer.",
+    "expected_answer": "-12",
+    "metadata": {
+      "a": 35,
+      "b": 47,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_025",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 72 grint 4\nReturn only the numeric answer.",
+    "expected_answer": "18.0",
+    "metadata": {
+      "a": 72,
+      "b": 4,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_026",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 15 plonk 44\nReturn only the numeric answer.",
+    "expected_answer": "660",
+    "metadata": {
+      "a": 15,
+      "b": 44,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_027",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 50 zorp 50\nReturn only the numeric answer.",
+    "expected_answer": "100",
+    "metadata": {
+      "a": 50,
+      "b": 50,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_028",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 15 plonk 3\nReturn only the numeric answer.",
+    "expected_answer": "45",
+    "metadata": {
+      "a": 15,
+      "b": 3,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_029",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 26 zorp 18\nReturn only the numeric answer.",
+    "expected_answer": "44",
+    "metadata": {
+      "a": 26,
+      "b": 18,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_030",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 14 plonk 37\nReturn only the numeric answer.",
+    "expected_answer": "518",
+    "metadata": {
+      "a": 14,
+      "b": 37,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_031",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 75 grint 5\nReturn only the numeric answer.",
+    "expected_answer": "15.0",
+    "metadata": {
+      "a": 75,
+      "b": 5,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_032",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 10 blix 17\nReturn only the numeric answer.",
+    "expected_answer": "-7",
+    "metadata": {
+      "a": 10,
+      "b": 17,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_033",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 16 plonk 48\nReturn only the numeric answer.",
+    "expected_answer": "768",
+    "metadata": {
+      "a": 16,
+      "b": 48,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_034",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 60 grint 5\nReturn only the numeric answer.",
+    "expected_answer": "12.0",
+    "metadata": {
+      "a": 60,
+      "b": 5,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_035",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 2 grint 1\nReturn only the numeric answer.",
+    "expected_answer": "2.0",
+    "metadata": {
+      "a": 2,
+      "b": 1,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_036",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 8 blix 10\nReturn only the numeric answer.",
+    "expected_answer": "-2",
+    "metadata": {
+      "a": 8,
+      "b": 10,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_037",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 44 zorp 28\nReturn only the numeric answer.",
+    "expected_answer": "72",
+    "metadata": {
+      "a": 44,
+      "b": 28,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_038",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 72 grint 4\nReturn only the numeric answer.",
+    "expected_answer": "18.0",
+    "metadata": {
+      "a": 72,
+      "b": 4,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_039",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 1 zorp 44\nReturn only the numeric answer.",
+    "expected_answer": "45",
+    "metadata": {
+      "a": 1,
+      "b": 44,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_040",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 44 plonk 35\nReturn only the numeric answer.",
+    "expected_answer": "1540",
+    "metadata": {
+      "a": 44,
+      "b": 35,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_041",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 50 plonk 42\nReturn only the numeric answer.",
+    "expected_answer": "2100",
+    "metadata": {
+      "a": 50,
+      "b": 42,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_042",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 30 grint 2\nReturn only the numeric answer.",
+    "expected_answer": "15.0",
+    "metadata": {
+      "a": 30,
+      "b": 2,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_043",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 1 plonk 47\nReturn only the numeric answer.",
+    "expected_answer": "47",
+    "metadata": {
+      "a": 1,
+      "b": 47,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_044",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 33 blix 49\nReturn only the numeric answer.",
+    "expected_answer": "-16",
+    "metadata": {
+      "a": 33,
+      "b": 49,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_045",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 33 plonk 7\nReturn only the numeric answer.",
+    "expected_answer": "231",
+    "metadata": {
+      "a": 33,
+      "b": 7,
+      "op": "*",
+      "invented": "plonk"
+    }
+  },
+  {
+    "id": "sym_046",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 41 blix 33\nReturn only the numeric answer.",
+    "expected_answer": "8",
+    "metadata": {
+      "a": 41,
+      "b": 33,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_047",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 10 blix 24\nReturn only the numeric answer.",
+    "expected_answer": "-14",
+    "metadata": {
+      "a": 10,
+      "b": 24,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_048",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 35 zorp 50\nReturn only the numeric answer.",
+    "expected_answer": "85",
+    "metadata": {
+      "a": 35,
+      "b": 50,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_049",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 4 grint 1\nReturn only the numeric answer.",
+    "expected_answer": "4.0",
+    "metadata": {
+      "a": 4,
+      "b": 1,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_050",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 24 blix 20\nReturn only the numeric answer.",
+    "expected_answer": "4",
+    "metadata": {
+      "a": 24,
+      "b": 20,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_051",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 4 zorp 16\nReturn only the numeric answer.",
+    "expected_answer": "20",
+    "metadata": {
+      "a": 4,
+      "b": 16,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_052",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 18 grint 1\nReturn only the numeric answer.",
+    "expected_answer": "18.0",
+    "metadata": {
+      "a": 18,
+      "b": 1,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_053",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 50 blix 9\nReturn only the numeric answer.",
+    "expected_answer": "41",
+    "metadata": {
+      "a": 50,
+      "b": 9,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_054",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 43 blix 31\nReturn only the numeric answer.",
+    "expected_answer": "12",
+    "metadata": {
+      "a": 43,
+      "b": 31,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_055",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 36 grint 2\nReturn only the numeric answer.",
+    "expected_answer": "18.0",
+    "metadata": {
+      "a": 36,
+      "b": 2,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_056",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 49 blix 47\nReturn only the numeric answer.",
+    "expected_answer": "2",
+    "metadata": {
+      "a": 49,
+      "b": 47,
+      "op": "-",
+      "invented": "blix"
+    }
+  },
+  {
+    "id": "sym_057",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 60 grint 4\nReturn only the numeric answer.",
+    "expected_answer": "15.0",
+    "metadata": {
+      "a": 60,
+      "b": 4,
+      "op": "/",
+      "invented": "grint"
+    }
+  },
+  {
+    "id": "sym_058",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 34 zorp 29\nReturn only the numeric answer.",
+    "expected_answer": "63",
+    "metadata": {
+      "a": 34,
+      "b": 29,
+      "op": "+",
+      "invented": "zorp"
+    }
+  },
+  {
+    "id": "sym_059",
+    "experiment_type": "symbol_substitution",
+    "prompt": "Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.\nCompute: 16 zorp 15\nReturn only the numeric answer.",
+    "expected_answer": "31",
+    "metadata": {
+      "a": 16,
+      "b": 15,
+      "op": "+",
+      "invented": "zorp"
+    }
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "rephrase_000",
+    "experiment_type": "rephrasing",
+    "prompt": "A is north of B. B is north of C. Who is southernmost?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_001",
+    "experiment_type": "rephrasing",
+    "prompt": "C lies south of B, and B lies south of A. Which of A, B, C is most southern?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_002",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: A->north->B, B->north->C. Identify the person farthest south.\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_003",
+    "experiment_type": "rephrasing",
+    "prompt": "All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_004",
+    "experiment_type": "rephrasing",
+    "prompt": "Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_005",
+    "experiment_type": "rephrasing",
+    "prompt": "Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_006",
+    "experiment_type": "rephrasing",
+    "prompt": "If it rains, the ground is wet. The ground is wet. Did it rain?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_007",
+    "experiment_type": "rephrasing",
+    "prompt": "Rain implies wet ground. The ground is currently wet. Can we conclude it rained?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_008",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_009",
+    "experiment_type": "rephrasing",
+    "prompt": "Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_010",
+    "experiment_type": "rephrasing",
+    "prompt": "Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_011",
+    "experiment_type": "rephrasing",
+    "prompt": "Let B=5. Sam's apples S = 2B. Compute S.\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_012",
+    "experiment_type": "rephrasing",
+    "prompt": "A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_013",
+    "experiment_type": "rephrasing",
+    "prompt": "Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_014",
+    "experiment_type": "rephrasing",
+    "prompt": "speed=60, time=2, distance=?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_015",
+    "experiment_type": "rephrasing",
+    "prompt": "A is north of B. B is north of C. Who is southernmost?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_016",
+    "experiment_type": "rephrasing",
+    "prompt": "C lies south of B, and B lies south of A. Which of A, B, C is most southern?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_017",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: A->north->B, B->north->C. Identify the person farthest south.\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_018",
+    "experiment_type": "rephrasing",
+    "prompt": "All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_019",
+    "experiment_type": "rephrasing",
+    "prompt": "Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_020",
+    "experiment_type": "rephrasing",
+    "prompt": "Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_021",
+    "experiment_type": "rephrasing",
+    "prompt": "If it rains, the ground is wet. The ground is wet. Did it rain?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_022",
+    "experiment_type": "rephrasing",
+    "prompt": "Rain implies wet ground. The ground is currently wet. Can we conclude it rained?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_023",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_024",
+    "experiment_type": "rephrasing",
+    "prompt": "Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_025",
+    "experiment_type": "rephrasing",
+    "prompt": "Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_026",
+    "experiment_type": "rephrasing",
+    "prompt": "Let B=5. Sam's apples S = 2B. Compute S.\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_027",
+    "experiment_type": "rephrasing",
+    "prompt": "A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_028",
+    "experiment_type": "rephrasing",
+    "prompt": "Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_029",
+    "experiment_type": "rephrasing",
+    "prompt": "speed=60, time=2, distance=?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_030",
+    "experiment_type": "rephrasing",
+    "prompt": "A is north of B. B is north of C. Who is southernmost?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_031",
+    "experiment_type": "rephrasing",
+    "prompt": "C lies south of B, and B lies south of A. Which of A, B, C is most southern?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_032",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: A->north->B, B->north->C. Identify the person farthest south.\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_033",
+    "experiment_type": "rephrasing",
+    "prompt": "All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_034",
+    "experiment_type": "rephrasing",
+    "prompt": "Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_035",
+    "experiment_type": "rephrasing",
+    "prompt": "Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_036",
+    "experiment_type": "rephrasing",
+    "prompt": "If it rains, the ground is wet. The ground is wet. Did it rain?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_037",
+    "experiment_type": "rephrasing",
+    "prompt": "Rain implies wet ground. The ground is currently wet. Can we conclude it rained?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_038",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_039",
+    "experiment_type": "rephrasing",
+    "prompt": "Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_040",
+    "experiment_type": "rephrasing",
+    "prompt": "Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_041",
+    "experiment_type": "rephrasing",
+    "prompt": "Let B=5. Sam's apples S = 2B. Compute S.\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_042",
+    "experiment_type": "rephrasing",
+    "prompt": "A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_043",
+    "experiment_type": "rephrasing",
+    "prompt": "Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_044",
+    "experiment_type": "rephrasing",
+    "prompt": "speed=60, time=2, distance=?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_045",
+    "experiment_type": "rephrasing",
+    "prompt": "A is north of B. B is north of C. Who is southernmost?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_046",
+    "experiment_type": "rephrasing",
+    "prompt": "C lies south of B, and B lies south of A. Which of A, B, C is most southern?\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_047",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: A->north->B, B->north->C. Identify the person farthest south.\nAnswer with only the key term or number.",
+    "expected_answer": "C",
+    "metadata": {
+      "base_idx": 0,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_048",
+    "experiment_type": "rephrasing",
+    "prompt": "All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_049",
+    "experiment_type": "rephrasing",
+    "prompt": "Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_050",
+    "experiment_type": "rephrasing",
+    "prompt": "Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 1,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_051",
+    "experiment_type": "rephrasing",
+    "prompt": "If it rains, the ground is wet. The ground is wet. Did it rain?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_052",
+    "experiment_type": "rephrasing",
+    "prompt": "Rain implies wet ground. The ground is currently wet. Can we conclude it rained?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_053",
+    "experiment_type": "rephrasing",
+    "prompt": "Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?\nAnswer with only the key term or number.",
+    "expected_answer": "NO",
+    "metadata": {
+      "base_idx": 2,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_054",
+    "experiment_type": "rephrasing",
+    "prompt": "Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_055",
+    "experiment_type": "rephrasing",
+    "prompt": "Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_056",
+    "experiment_type": "rephrasing",
+    "prompt": "Let B=5. Sam's apples S = 2B. Compute S.\nAnswer with only the key term or number.",
+    "expected_answer": "10",
+    "metadata": {
+      "base_idx": 3,
+      "paraphrase_idx": 2
+    }
+  },
+  {
+    "id": "rephrase_057",
+    "experiment_type": "rephrasing",
+    "prompt": "A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 0
+    }
+  },
+  {
+    "id": "rephrase_058",
+    "experiment_type": "rephrasing",
+    "prompt": "Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 1
+    }
+  },
+  {
+    "id": "rephrase_059",
+    "experiment_type": "rephrasing",
+    "prompt": "speed=60, time=2, distance=?\nAnswer with only the key term or number.",
+    "expected_answer": "120",
+    "metadata": {
+      "base_idx": 4,
+      "paraphrase_idx": 2
+    }
+  }
+]

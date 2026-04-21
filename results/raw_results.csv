@@ -1,0 +1,2272 @@
+experiment_id,experiment_type,provider,model,prompt,expected,response,parsed,correct,failure_type,latency_s,timestamp
+sym_000,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 41 zorp 8
+Return only the numeric answer.",49,49,49,True,,1.444,2026-04-20T03:33:30Z
+sym_001,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 48 blix 18
+Return only the numeric answer.",30,30,30,True,,0.907,2026-04-20T03:33:31Z
+sym_002,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 15 zorp 9
+Return only the numeric answer.",24,24,24,True,,0.901,2026-04-20T03:33:32Z
+sym_003,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 44 zorp 48
+Return only the numeric answer.",92,92,92,True,,0.838,2026-04-20T03:33:33Z
+sym_004,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 38 zorp 28
+Return only the numeric answer.",66,66,66,True,,0.657,2026-04-20T03:33:34Z
+sym_005,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 2 blix 6
+Return only the numeric answer.",-4,2 - 6 = **-4**,-4,True,,1.248,2026-04-20T03:33:35Z
+sym_006,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 15 zorp 33
+Return only the numeric answer.",48,48,48,True,,0.963,2026-04-20T03:33:36Z
+sym_007,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 30 grint 2
+Return only the numeric answer.",15.0,15,15,True,,0.979,2026-04-20T03:33:37Z
+sym_008,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 38 zorp 18
+Return only the numeric answer.",56,56,56,True,,1.276,2026-04-20T03:33:38Z
+sym_009,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 36 grint 4
+Return only the numeric answer.",9.0,9,9,True,,1.438,2026-04-20T03:33:39Z
+sym_010,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 10 plonk 14
+Return only the numeric answer.",140,140,140,True,,1.016,2026-04-20T03:33:40Z
+sym_011,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 12 grint 1
+Return only the numeric answer.",12.0,12,12,True,,1.947,2026-04-20T03:33:42Z
+sym_012,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 23 plonk 39
+Return only the numeric answer.",897,23 × 39 = **897**,897,True,,1.124,2026-04-20T03:33:44Z
+sym_013,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 13 grint 1
+Return only the numeric answer.",13.0,13,13,True,,1.027,2026-04-20T03:33:45Z
+sym_014,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 6 plonk 36
+Return only the numeric answer.",216,6 plonk 36 = 6 × 36 = **216**,216,True,,0.909,2026-04-20T03:33:46Z
+sym_015,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 41 plonk 40
+Return only the numeric answer.",1640,41 plonk 40 = 41 × 40 = **1640**,1640,True,,1.339,2026-04-20T03:33:47Z
+sym_016,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 37 zorp 13
+Return only the numeric answer.",50,50,50,True,,1.433,2026-04-20T03:33:48Z
+sym_017,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 3 blix 43
+Return only the numeric answer.",-40,3 - 43 = **-40**,-40,True,,1.322,2026-04-20T03:33:50Z
+sym_018,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 50 zorp 19
+Return only the numeric answer.",69,69,69,True,,1.859,2026-04-20T03:33:51Z
+sym_019,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 60 grint 4
+Return only the numeric answer.",15.0,15,15,True,,1.321,2026-04-20T03:33:53Z
+sym_020,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 41 blix 24
+Return only the numeric answer.",17,41 - 24 = **17**,17,True,,1.234,2026-04-20T03:33:54Z
+sym_021,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 24 blix 23
+Return only the numeric answer.",1,1,1,True,,1.332,2026-04-20T03:33:55Z
+sym_022,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 43 zorp 18
+Return only the numeric answer.",61,61,61,True,,0.920,2026-04-20T03:33:56Z
+sym_023,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 39 blix 41
+Return only the numeric answer.",-2,39 - 41 = **-2**,-2,True,,1.334,2026-04-20T03:33:58Z
+sym_024,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 35 blix 47
+Return only the numeric answer.",-12,35 - 47 = **-12**,-12,True,,1.125,2026-04-20T03:33:59Z
+sym_025,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 72 grint 4
+Return only the numeric answer.",18.0,18,18,True,,2.661,2026-04-20T03:34:01Z
+sym_026,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 15 plonk 44
+Return only the numeric answer.",660,"15 × 44 = 660
+
+**660**",660,True,,1.213,2026-04-20T03:34:03Z
+sym_027,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 50 zorp 50
+Return only the numeric answer.",100,100,100,True,,0.835,2026-04-20T03:34:03Z
+sym_028,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 15 plonk 3
+Return only the numeric answer.",45,45,45,True,,1.537,2026-04-20T03:34:05Z
+sym_029,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 26 zorp 18
+Return only the numeric answer.",44,44,44,True,,0.820,2026-04-20T03:34:06Z
+sym_030,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 14 plonk 37
+Return only the numeric answer.",518,14 × 37 = **518**,518,True,,0.818,2026-04-20T03:34:07Z
+sym_031,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 75 grint 5
+Return only the numeric answer.",15.0,15,15,True,,1.229,2026-04-20T03:34:08Z
+sym_032,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 10 blix 17
+Return only the numeric answer.",-7,10 - 17 = **-7**,-7,True,,1.436,2026-04-20T03:34:09Z
+sym_033,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 16 plonk 48
+Return only the numeric answer.",768,16 plonk 48 = 16 × 48 = **768**,768,True,,1.293,2026-04-20T03:34:11Z
+sym_034,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 60 grint 5
+Return only the numeric answer.",12.0,12,12,True,,1.264,2026-04-20T03:34:12Z
+sym_035,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 2 grint 1
+Return only the numeric answer.",2.0,2,2,True,,2.376,2026-04-20T03:34:14Z
+sym_036,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 8 blix 10
+Return only the numeric answer.",-2,8 - 10 = **-2**,-2,True,,1.002,2026-04-20T03:34:15Z
+sym_037,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 44 zorp 28
+Return only the numeric answer.",72,72,72,True,,0.923,2026-04-20T03:34:16Z
+sym_038,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 72 grint 4
+Return only the numeric answer.",18.0,18,18,True,,1.113,2026-04-20T03:34:17Z
+sym_039,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 1 zorp 44
+Return only the numeric answer.",45,45,45,True,,0.690,2026-04-20T03:34:18Z
+sym_040,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 44 plonk 35
+Return only the numeric answer.",1540,44 × 35 = **1540**,1540,True,,0.961,2026-04-20T03:34:19Z
+sym_041,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 50 plonk 42
+Return only the numeric answer.",2100,50 × 42 = **2100**,2100,True,,1.125,2026-04-20T03:34:20Z
+sym_042,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 30 grint 2
+Return only the numeric answer.",15.0,15,15,True,,2.559,2026-04-20T03:34:23Z
+sym_043,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 1 plonk 47
+Return only the numeric answer.",47,47,47,True,,1.229,2026-04-20T03:34:24Z
+sym_044,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 33 blix 49
+Return only the numeric answer.",-16,33 - 49 = **-16**,-16,True,,1.259,2026-04-20T03:34:25Z
+sym_045,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 33 plonk 7
+Return only the numeric answer.",231,33 × 7 = **231**,231,True,,0.891,2026-04-20T03:34:26Z
+sym_046,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 41 blix 33
+Return only the numeric answer.",8,41 - 33 = **8**,8,True,,0.822,2026-04-20T03:34:27Z
+sym_047,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 10 blix 24
+Return only the numeric answer.",-14,10 - 24 = **-14**,-14,True,,1.022,2026-04-20T03:34:28Z
+sym_048,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 35 zorp 50
+Return only the numeric answer.",85,85,85,True,,1.260,2026-04-20T03:34:29Z
+sym_049,symbol_substitution,anthropic,claude-sonnet-4-6,"Definitions: 'zorp'=addition, 'blix'=subtraction, 'plonk'=multiplication, 'grint'=integer division.
+Compute: 4 grint 1
+Return only the numeric answer.",4.0,4,4,True,,2.425,2026-04-20T03:34:31Z
+rule_000,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 356: YES
+- 31: YES
+- 612: NO
+- 577: NO
+
+Is 3780 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+356: YES
+31: YES
+612: NO
+577: NO
+
+Let me look for patterns.
+
+356: digits 3, 5, 6
+31: digits 3, 1
+612: digits 6, 1, 2
+577: digits 5, 7, 7
+
+Let me think about divisibility or digit properties.
+
+356: 3+5+6=14, 3×5×6=90
+31: 3+1=4, 3×1=3
+612: 6+1+2=9, 6×1×2=12
+577: 5+7+7=19, 5×7×7=245
+
+Divisibility by 3: 356→14 no, 31→4 no... that doesn't work simply.
+
+Let me think about ""frog"" - maybe leaping/jumping digits, or alternating patterns.
+
+356: 3,5,6 - differences: +2, +1
+31: 3,1 - difference: -2
+612: 6,1,2 - differences: -5, +1
+577: 5,7,7 - differences: +2, 0
+
+Maybe consecutive digits differ by at most 2? 
+356: |3-5|=2, |5-6|=1 ✓
+31: |3-1|=2 ✓
+612: |6-1|=5 ✗ → NO ✓
+577: |5-7|=2, |7-7|=0 ✓ → should be YES, but it's NO ✗
+
+Let me try another approach. Maybe digits must all be odd",YES,True,,7.173,2026-04-20T03:34:39Z
+rule_001,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 612: NO
+- 235: YES
+- 17: YES
+- 82: YES
+
+Is 974 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits of each number:
+
+- 612: NO
+- 235: YES
+- 17: YES
+- 82: YES
+
+Let me think about what makes 235, 17, and 82 special but not 612.
+
+Let me check if any digit is a multiple of another digit, or some relationship between digits.
+
+**235:** digits 2, 3, 5 - all prime? 2✓, 3✓, 5✓
+**17:** digits 1, 7 - 1 is not prime...
+**82:** digits 8, 2 - 8 is not prime...
+
+Let me try another approach - consecutive digits differ by some amount.
+
+**235:** 2→3 (diff 1), 3→5 (diff 2)
+**17:** 1→7 (diff 6)
+**82:** 8→2 (diff -6)
+**612:** 6→1 (diff -5), 1→2 (diff 1)
+
+Hmm, let me try: each next digit is larger than the previous (ascending)?
+- 235: 2<3<5 ✓
+- 17: 1<7 ✓
+- 82: 8>2 ✗ — No, this doesn't work.
+
+Let me try: contains an odd digit?
+- 612: 1 is odd... NO — doesn't work.
+
+Let me try: the digits sum to a prime?
+- 235: 2+3+5=10, not prime ✗
+
+Let me try: one digit divides another?
+- 235: 2 doesn't divide",NO,False,wrong_answer,6.850,2026-04-20T03:34:46Z
+rule_002,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 244: YES
+- 79: YES
+- 937: NO
+- 42: YES
+
+Is 5423 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+- 244: YES
+- 79: YES
+- 937: NO
+- 42: YES
+
+Let me look at various properties:
+
+**Sum of digits:**
+- 244: 2+4+4 = 10
+- 79: 7+9 = 16
+- 937: 9+3+7 = 19
+- 42: 4+2 = 6
+
+No obvious pattern there.
+
+**Contains an even digit:**
+- 244: has 2,4,4 (even) → YES
+- 79: has no even digits... wait, 79 has 7 and 9, both odd → YES (doesn't fit)
+
+**Product of digits:**
+- 244: 2×4×4 = 32
+- 79: 7×9 = 63
+- 937: 9×3×7 = 189
+- 42: 4×2 = 8
+
+Hmm, 32, 63, 8 are YES; 189 is NO. Not obvious.
+
+**Divisibility:**
+- 244 ÷ 4 = 61 ✓
+- 79: prime
+- 937: prime
+- 42 ÷ 2 = 21, ÷ 6 = 7 ✓
+
+Let me think about ""frog"" - frogs jump, maybe alternating pattern?
+
+**Alternating digits (up-down or down-up):**
+- 244: 2<4>4? 2<4 then 4=4, not strictly alternating
+- 79: 7>9? No, 7",YES,True,,6.150,2026-04-20T03:34:52Z
+rule_003,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 82: YES
+- 536: YES
+- 253: YES
+- 295: YES
+
+Is 7963 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 82: 8, 2
+- 536: 5, 3, 6
+- 253: 2, 5, 3
+- 295: 2, 9, 5
+
+Let me think about what these have in common.
+
+Maybe it's about even/odd patterns or digit relationships.
+
+Let me check if digits alternate even/odd:
+- 82: 8(even), 2(even) — No
+- 536: 5(odd), 3(odd), 6(even) — No
+
+Let me check differences between consecutive digits:
+- 82: |8-2| = 6
+- 536: |5-3|=2, |3-6|=3
+- 253: |2-5|=3, |5-3|=2
+- 295: |2-9|=7, |9-5|=4
+
+Hmm, let me think about ""frog jumping"" — maybe digits jump over each other or skip.
+
+Let me check if each digit is between its neighbors, or if digits are non-consecutive (no two adjacent digits differ by 1):
+- 82: |8-2|=6 ✓ (not 1)
+- 536: |5-3|=2 ✓, |3-6|=3 ✓
+- 253: |2-5|=3 ✓, |5-3|=2 ✓
+- 295: |2-9|=7 ✓, |9-5|=4 ✓
+
+Now check 7963:
+- |7-9|=2",NO,True,,6.779,2026-04-20T03:34:58Z
+rule_004,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 229: NO
+- 562: NO
+- 145: YES
+- 750: YES
+
+Is 9365 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 229: NO
+- 562: NO
+- 145: YES
+- 750: YES
+
+Let me try various rules:
+
+**Sum of digits:**
+- 229: 2+2+9 = 13
+- 562: 5+6+2 = 13
+- 145: 1+4+5 = 10
+- 750: 7+5+0 = 12
+
+No clear pattern there.
+
+**Product of digits:**
+- 229: 2×2×9 = 36
+- 562: 5×6×2 = 60
+- 145: 1×4×5 = 20
+- 750: 7×5×0 = 0
+
+Hmm, not obvious.
+
+**Contains a perfect square digit?**
+Digits that are perfect squares: 0, 1, 4, 9
+- 229: has 9 → YES but answer is NO
+- That doesn't work.
+
+**Digits include a perfect square (non-trivial)?**
+
+Let me think about ""frog"" - frogs jump. Maybe the digits increase then decrease or follow a pattern?
+
+**Digits in ascending order somewhere?**
+- 145: 1<4<5 YES ✓
+- 750: 7>5>0 descending... 
+
+**One digit is the sum of the other two?**
+- 229: 2+2=4≠9, 2+9=11≠2 → NO ✓
+- 562: 5+6=11≠2, 5+2=7≠6, 6+",NO,True,,7.244,2026-04-20T03:35:06Z
+rule_005,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 600: YES
+- 494: NO
+- 258: NO
+- 813: YES
+
+Is 7759 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+600: YES
+494: NO
+258: NO
+813: YES
+
+Let me look for patterns.
+
+600: digits 6, 0, 0
+813: digits 8, 1, 3
+
+494: digits 4, 9, 4
+258: digits 2, 5, 8
+
+Let me try sum of digits:
+600: 6+0+0 = 6
+813: 8+1+3 = 12
+494: 4+9+4 = 17
+258: 2+5+8 = 15
+
+Not obvious. Let me try product:
+600: 6×0×0 = 0
+813: 8×1×3 = 24
+494: 4×9×4 = 144
+258: 2×5×8 = 80
+
+Hmm. Let me think about ""frog"" - frogs jump, maybe alternating up/down pattern?
+
+600: 6→0 (down), 0→0 (same) - not strictly alternating
+813: 8→1 (down), 1→3 (up) - down then up: YES
+494: 4→9 (up), 9→4 (down) - up then down: NO
+258: 2→5 (up), 5→8 (up) - both up: NO
+
+So the pattern might be: digits go DOWN then UP (valley pattern)?
+
+600: 6→0 (down), 0→0 (not up, same)... but it's YES. Hmm.
+
+Wait, maybe equal counts as down or the rule is different. Let me reconsider.
+
+Maybe: the",YES,True,,6.555,2026-04-20T03:35:12Z
+rule_006,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 836: NO
+- 426: YES
+- 204: YES
+- 106: NO
+
+Is 1598 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 836: NO
+- 426: YES
+- 204: YES
+- 106: NO
+
+Let me try various properties.
+
+**Sum of digits:**
+- 836: 8+3+6 = 17 NO
+- 426: 4+2+6 = 12 YES
+- 204: 2+0+4 = 6 YES
+- 106: 1+0+6 = 7 NO
+
+YES numbers have digit sums 12 and 6 (divisible by 6? or by 3?)
+NO numbers have digit sums 17 and 7 (not divisible by 3)
+
+Wait, divisible by 3: 12 yes, 6 yes, 17 no, 7 no. That works!
+
+But let me check divisible by 6 (divisible by both 2 and 3):
+- 426: even, sum=12 ✓ YES
+- 204: even, sum=6 ✓ YES
+- 836: even, sum=17, not div by 3 ✗ NO
+- 106: even, sum=7, not div by 3 ✗ NO
+
+So the rule might be: divisible by 6 (or just divisible by 3, since all examples are even).
+
+Let me check 1598:
+- 1+5+9+8 = 23, not divisible by 3
+- So not divisible by 3, not divisible by 6
+
+**NO**",NO,True,,6.961,2026-04-20T03:35:19Z
+rule_007,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 684: YES
+- 451: YES
+- 372: YES
+- 443: NO
+
+Is 6745 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 684: YES
+- 451: YES
+- 372: YES
+- 443: NO
+
+Let me check various properties:
+
+**Sum of digits:**
+- 684: 6+8+4 = 18
+- 451: 4+5+1 = 10
+- 372: 3+7+2 = 12
+- 443: 4+4+3 = 11
+
+No obvious pattern there.
+
+**Alternating digits / differences:**
+- 684: 8-6=2, 8-4=4... 
+- Let me check if each digit is between the other two, or if they alternate up-down.
+
+**Up-down pattern (each middle digit larger than neighbors):**
+- 684: 8 > 6 and 8 > 4 ✓ (middle digit is largest)
+- 451: 5 > 4 and 5 > 1 ✓
+- 372: 7 > 3 and 7 > 2 ✓
+- 443: 4 > 4? NO ✗
+
+This works! The rule seems to be that the middle digit is strictly greater than both its neighbors.
+
+Now for **6745** (4 digits), I need to extend this. For a 4-digit number, maybe the pattern alternates: digits go up-down-up or down-up-down (like a ""frog"" jumping).
+
+For 4 digits, check if it alternates (each digit alternately higher/lower):
+- 6745: 6>7? No. So not strictly alternating down-up-down",YES,True,,7.578,2026-04-20T03:35:27Z
+rule_008,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 488: YES
+- 894: NO
+- 756: YES
+- 65: NO
+
+Is 1622 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 488: YES
+- 894: NO
+- 756: YES
+- 65: NO
+
+Let me think about what makes 488 and 756 ""frog numbers"" but not 894 and 65.
+
+Let me try products of digits:
+- 488: 4×8×8 = 256
+- 894: 8×9×4 = 288
+- 756: 7×5×6 = 210
+- 65: 6×5 = 30
+
+Let me try sums:
+- 488: 4+8+8 = 20
+- 894: 8+9+4 = 21
+- 756: 7+5+6 = 18
+- 65: 6+5 = 11
+
+Let me think about ""frog"" - frogs jump. Maybe alternating up-down or down-up pattern?
+
+- 488: 4→8 (up), 8→8 (same) - not strictly alternating
+- 756: 7→5 (down), 5→6 (up) - down then up (valley)
+- 894: 8→9 (up), 9→4 (down) - up then down (peak)
+- 65: 6→5 (down) - just down
+
+So YES numbers have a ""valley"" shape (goes down then up), NO numbers don't?
+- 488: 4→8→8... not a valley. Hmm.
+
+Let me try: contains a repeated digit?
+- 488: has two 8s - YES
+- 894: no repeats - NO",YES,False,wrong_answer,6.757,2026-04-20T03:35:34Z
+rule_009,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 72: NO
+- 422: YES
+- 755: NO
+- 357: NO
+
+Is 1800 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 72: NO
+- 422: YES
+- 755: NO
+- 357: NO
+
+Let me think about what makes 422 special.
+
+Looking at digit sums:
+- 72: 7+2 = 9
+- 422: 4+2+2 = 8
+- 755: 7+5+5 = 17
+- 357: 3+5+7 = 15
+
+Let me think about products:
+- 72: 7×2 = 14
+- 422: 4×2×2 = 16
+- 755: 7×5×5 = 175
+- 357: 3×5×7 = 105
+
+Let me think about whether digits contain a perfect square or specific numbers.
+
+Digits of 422: 4, 2, 2 — contains 4 (a perfect square)
+Digits of 72: 7, 2 — no perfect square digit (1,4,9)
+Digits of 755: 7, 5, 5 — no perfect square digit (other than 1)
+Digits of 357: 3, 5, 7 — no perfect square digit
+
+Wait, but 1 is also a perfect square. Let me check if the rule is ""contains digit 4 or 9"":
+- 72: no 4 or 9 → NO ✓
+- 422: has 4 → YES ✓
+- 755: no 4 or 9 → NO ✓
+- 357: no 4 or 9 → NO ✓
+
+Now",NO,True,,6.248,2026-04-20T03:35:40Z
+rule_010,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 264: YES
+- 206: YES
+- 204: YES
+- 559: NO
+
+Is 7360 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 264: YES
+- 206: YES
+- 204: YES
+- 559: NO
+
+Let me think about what properties these share.
+
+264: digits 2, 6, 4
+206: digits 2, 0, 6
+204: digits 2, 0, 4
+559: digits 5, 5, 9
+
+Let me try divisibility rules or digit properties.
+
+264: even digits are 2, 6, 4 - all even digits → YES
+206: digits 2, 0, 6 - all even → YES
+204: digits 2, 0, 4 - all even → YES
+559: digits 5, 5, 9 - all odd → NO
+
+So the rule might be: all digits are even.
+
+Now check 7360: digits 7, 3, 6, 0
+- 7 is odd → fails
+
+But wait, let me reconsider. Maybe the rule involves containing a ""leap"" or ""frog"" pattern.
+
+Let me try another angle - maybe it's about the number being divisible by something.
+- 264 ÷ 4 = 66 ✓
+- 206 ÷ 2 = 103 ✓
+- 204 ÷ 4 = 51 ✓
+- 559 ÷ ? 559 is odd, not divisible by 2 or 4
+
+Maybe divisible by 2? 559 is odd. But that's too simple.
+
+Let me try: all even digits.
+- 264: 2,6,4 all even",YES,True,,7.579,2026-04-20T03:35:47Z
+rule_011,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 153: NO
+- 442: YES
+- 197: NO
+- 295: YES
+
+Is 7589 a frog-number? Answer only YES or NO.",NO,"I need to find the pattern that makes a number a ""frog-number.""
+
+Let me analyze the examples:
+- 153: NO
+- 442: YES
+- 295: YES
+- 197: NO
+
+Let me try various operations on the digits:
+
+**442:** 4 × 4 × 2 = 32, 4 + 4 + 2 = 10, 4² + 4² = 32, 4 × 4 - 2 = 14
+**295:** 2 × 9 × 5 = 90, 2 + 9 + 5 = 16, 2 × 9 - 5 = 13, 9 - 2 = 7, 5 - 2 = 3
+
+Let me try: product of digits divisible by sum of digits?
+- 442: product = 32, sum = 10, 32/10 = 3.2 NO
+- 295: product = 90, sum = 16, 90/16 NO
+
+Let me try if any digit is the product or sum of others:
+- 442: 4 = 4×... hmm, 4+2=6≠4, 4×2=8≠4, 2+2=4 ✓ (2+2=4)
+- 295: 9 = 2+... 2+5=7≠9, 2×5=10≠9... hmm
+- 295: 5+2=7≠9, but 9-5=4≠2... 
+
+Let me try: one digit equals another digit minus the third:
+- 442:",NO,True,,6.995,2026-04-20T03:35:54Z
+rule_012,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 265: NO
+- 905: YES
+- 955: NO
+- 87: NO
+
+Is 7270 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 265: NO
+- 905: YES
+- 955: NO
+- 87: NO
+
+Let me think about what's special about 905.
+
+Let me try various properties:
+
+Digits of 905: 9, 0, 5
+Digits of 265: 2, 6, 5
+Digits of 955: 9, 5, 5
+Digits of 87: 8, 7
+
+Maybe it involves the digit 0? Only 905 has a 0, and it's YES.
+
+Let me check 7270: digits are 7, 2, 7, 0 - it contains a 0.
+
+But let me think more carefully. Maybe the rule is more specific.
+
+905 contains a 0. 7270 contains a 0. But is containing a 0 sufficient?
+
+Let me think about ""frog"" - frogs jump, leap... or maybe it's about the number being divisible by something.
+
+905 ÷ 5 = 181. 905 = 5 × 181.
+265 ÷ 5 = 53. 265 = 5 × 53. Also divisible by 5 but NO.
+
+Maybe it's about having a 0 digit specifically. 905 has 0, others don't.
+
+7270 has a 0 digit.
+
+But let me think about another angle - ""frog numbers"" could relate to numbers that contain the digit 0 (frogs have 0 legs... no). 
+
+Or maybe it's about the product of digits being 0 (which requires a 0 digit):
+-",NO,False,hallucinated_rule,7.783,2026-04-20T03:36:02Z
+rule_013,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 837: YES
+- 892: NO
+- 886: YES
+- 573: NO
+
+Is 1614 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+837: YES
+892: NO
+886: YES
+573: NO
+
+Let me look at the digits:
+- 837: 8, 3, 7
+- 892: 8, 9, 2
+- 886: 8, 8, 6
+- 573: 5, 7, 3
+
+Let me try various rules:
+
+Sum of digits:
+- 837: 8+3+7 = 18 ✓ YES
+- 892: 8+9+2 = 19 ✗ NO
+- 886: 8+8+6 = 22 ✗ YES
+- 573: 5+7+3 = 15 ✗ NO
+
+Divisibility:
+- 837 ÷ 3 = 279 ✓
+- 892 ÷ 3 = not divisible ✓
+- 886 ÷ 2 = 443, not divisible by 3 ✗
+
+Let me try: contains an even number of even digits, or some pattern with even/odd digits.
+- 837: even digits: 8 (one even) → NO... 
+
+Let me try: product of digits divisible by something:
+- 837: 8×3×7 = 168
+- 892: 8×9×2 = 144
+- 886: 8×8×6 = 384
+- 573: 5×7×3 = 105
+
+168/6=28, 144/6=24, 384/6=64, 105/6=17.5
+168 divis",YES,True,,6.005,2026-04-20T03:36:08Z
+rule_014,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 61: NO
+- 677: YES
+- 563: YES
+- 866: YES
+
+Is 251 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 61: NO
+- 677: YES
+- 563: YES
+- 866: YES
+
+Let me think about what makes 677, 563, and 866 special but not 61.
+
+First, they're all 3-digit numbers, but 61 is 2-digit. Could it just be about having 3 digits? Let me think deeper.
+
+Let me check if consecutive digits have a specific relationship:
+
+677: 6→7 (diff +1), 7→7 (diff 0)
+563: 5→6 (diff +1), 6→3 (diff -3)
+866: 8→6 (diff -2), 6→6 (diff 0)
+
+Hmm, let me try another approach - looking for a frog ""jumping"" pattern.
+
+Let me check if any digit appears as a sum or product of others:
+- 677: 6+7=13, 7+7=14, 6*7=42... 
+- 563: 5+6=11, 6+3=9, 5+3=8...
+- 866: 8+6=14, 6+6=12, 8*6=48...
+
+Let me try: does a digit divide another?
+- 677: 6/7 no, 7/7=1 yes!
+- 563: 5/6 no, 6/3=2 yes!
+- 866: 8/6 no, 6/6=1 yes!
+- 61: 6/1=6 yes, 1/6 no... hmm",NO,False,wrong_answer,7.067,2026-04-20T03:36:15Z
+rule_015,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 105: YES
+- 958: YES
+- 781: YES
+- 879: YES
+
+Is 3882 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the numbers:
+- 105: YES
+- 958: YES
+- 781: YES
+- 879: YES
+
+Let me look for patterns. Let me try checking if the digits sum to something, or if there's a product relationship.
+
+**Digit sums:**
+- 105: 1+0+5 = 6
+- 958: 9+5+8 = 22
+- 781: 7+8+1 = 16
+- 879: 8+7+9 = 24
+
+No obvious pattern there.
+
+**Let me try products of digits:**
+- 105: 1×0×5 = 0
+- 958: 9×5×8 = 360
+- 781: 7×8×1 = 56
+- 879: 8×7×9 = 504
+
+No clear pattern.
+
+**Let me think about ""frog"" - frogs jump. Maybe the digits alternate up-down or down-up (like a zigzag)?**
+
+- 105: 1→0 (down), 0→5 (up) ✓ zigzag
+- 958: 9→5 (down), 5→8 (up) ✓ zigzag
+- 781: 7→8 (up), 8→1 (down) ✓ zigzag
+- 879: 8→7 (down), 7→9 (up) ✓ zigzag
+
+All four examples show a zigzag pattern (either down-up or up-down)!
+
+**Now check 3882:**
+- 3→8 (up",YES,False,wrong_answer,5.840,2026-04-20T03:36:21Z
+rule_016,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 180: NO
+- 426: YES
+- 507: YES
+- 502: NO
+
+Is 3512 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the digits of each number:
+
+- 180: NO
+- 426: YES
+- 507: YES
+- 502: NO
+
+Let me think about what makes 426 and 507 special but not 180 and 502.
+
+Let me try looking at the digits and their relationships:
+
+426: 4, 2, 6
+507: 5, 0, 7
+180: 1, 8, 0
+502: 5, 0, 2
+
+Let me try: does the number contain a ""frog leap"" pattern - like alternating up-down or some arithmetic pattern?
+
+426: 4→2 (down 2), 2→6 (up 4) - differences: -2, +4
+507: 5→0 (down 5), 0→7 (up 7) - differences: -5, +7
+180: 1→8 (up 7), 8→0 (down 8) - differences: +7, -8
+502: 5→0 (down 5), 0→2 (up 2) - differences: -5, +2
+
+Pattern for YES: down then up
+Pattern for NO (180): up then down
+Pattern for NO (502): down then up... wait, 502 also goes down then up.
+
+Let me reconsider. Maybe the magnitude matters:
+- 426: down 2, up 4 (second jump larger)
+- 507: down 5, up 7 (second jump larger)
+- 502: down 5, up 2 (second jump smaller) → NO
+- 180: up 7, down 8 →",NO,True,,6.859,2026-04-20T03:36:28Z
+rule_017,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 895: YES
+- 420: YES
+- 934: YES
+- 70: NO
+
+Is 2707 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 895: YES
+- 420: YES
+- 934: YES
+- 70: NO
+
+Let me think about what these have in common.
+
+8+9+5 = 22
+4+2+0 = 6
+9+3+4 = 16
+7+0 = 7
+
+Products:
+8×9×5 = 360
+4×2×0 = 0
+9×3×4 = 108
+7×0 = 0
+
+That doesn't work since 420 and 70 both have 0.
+
+Let me think about consecutive digits or jumps:
+- 895: 8→9 (jump +1), 9→5 (jump -4)
+- 420: 4→2 (jump -2), 2→0 (jump -2)
+- 934: 9→3 (jump -6), 3→4 (jump +1)
+- 70: 7→0 (jump -7)
+
+Hmm, let me think about ""frog"" - jumping over something.
+
+Maybe each digit must be even or odd alternating? 
+- 895: 8(even), 9(odd), 5(odd) - NO
+- 420: 4(even), 2(even), 0(even) - NO
+
+Maybe the number contains a digit that ""jumps over"" another - like a frog jumping over a piece in checkers?
+
+Let me think about whether digits include a specific pattern. 
+
+What if consecutive digits must differ by more than 1 (like a frog jumping)?
+- 895: |8-9|=1",YES,True,,6.835,2026-04-20T03:36:35Z
+rule_018,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 398: YES
+- 12: NO
+- 409: NO
+- 281: NO
+
+Is 7464 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the numbers:
+- 398: YES
+- 12: NO
+- 409: NO
+- 281: NO
+
+Let me look at various properties:
+
+**398:** digits 3, 9, 8
+**12:** digits 1, 2
+**409:** digits 4, 0, 9
+**281:** digits 2, 8, 1
+
+Let me think about what makes 398 special...
+
+Sum of digits: 398 → 3+9+8 = 20; 12 → 3; 409 → 13; 281 → 11
+
+Product of digits: 398 → 216; 12 → 2; 409 → 0; 281 → 16
+
+Let me think about ""frog"" - frogs jump, leap... 
+
+What if consecutive digits have a specific relationship? Like each digit is larger than the previous (ascending)?
+- 398: 3→9 (up), 9→8 (down) - NO
+
+What about digits containing a ""leap"" pattern? 
+
+Let me think about the number itself:
+- 398: contains digits that are all ≥ 3?
+- 409: has 0, so no... but 281 has no 0 yet still NO
+
+What if the digits include specific numbers associated with frogs? 
+
+Let me try: does the number contain the digit 3 or 9?
+- 398: has 3 and 9 → YES
+- 12: no → NO
+- 409: has 9 → but NO... that doesn't work
+
+What about all digits being odd?
+- 398: 3(odd), 9(",YES,False,wrong_answer,7.188,2026-04-20T03:36:42Z
+rule_019,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 302: NO
+- 443: NO
+- 723: YES
+- 990: YES
+
+Is 9115 a frog-number? Answer only YES or NO.",YES,"I need to find the pattern that makes a number a frog-number.
+
+Let me analyze the examples:
+- 302: NO
+- 443: NO
+- 723: YES
+- 990: YES
+
+Let me look at various properties:
+
+**Sum of digits:**
+- 302: 3+0+2 = 5 → NO
+- 443: 4+4+3 = 11 → NO
+- 723: 7+2+3 = 12 → YES
+- 990: 9+9+0 = 18 → YES
+
+12 and 18 are divisible by 6, while 5 and 11 are not. Let me check if divisibility by 6 (or some factor) works.
+
+Actually, let me check divisibility by 3:
+- 5: not divisible by 3 → NO ✓
+- 11: not divisible by 3 → NO ✓
+- 12: divisible by 3 → YES ✓
+- 18: divisible by 3 → YES ✓
+
+But also check divisibility by 6:
+- 12: divisible by 6 → YES ✓
+- 18: divisible by 6 → YES ✓
+
+Let me check if the number itself is divisible by something:
+- 302: not divisible by 3 → NO ✓
+- 443: not divisible by 3 → NO ✓
+- 723: 7+2+3=12, divisible by 3 → YES ✓
+- 990: 9+9+0=18, divisible by 3 → YES ✓
+
+The rule seems to be:",NO,False,wrong_answer,5.389,2026-04-20T03:36:47Z
+rule_020,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 687: NO
+- 745: YES
+- 508: NO
+- 168: NO
+
+Is 3121 a frog-number? Answer only YES or NO.",NO,"I need to find the pattern that makes a number a ""frog-number.""
+
+Let me analyze the examples:
+- 687: NO
+- 745: YES
+- 508: NO
+- 168: NO
+
+Let me look at 745 (YES) vs the others (NO).
+
+Let me try various properties:
+
+**Sum of digits:**
+- 687: 6+8+7 = 21
+- 745: 7+4+5 = 16
+- 508: 5+0+8 = 13
+- 168: 1+6+8 = 15
+
+**Product of digits:**
+- 687: 6×8×7 = 336
+- 745: 7×4×5 = 140
+- 508: 5×0×8 = 0
+- 168: 1×6×8 = 48
+
+**Contains a specific digit?** 745 has 7,4,5. Others have various digits.
+
+**Digits in ascending or descending order?**
+- 687: 6<8>7 - No
+- 745: 7>4<5 - No
+- 508: 5>0<8 - No
+- 168: 1<6<8 - ascending, but NO
+
+**Each digit is less than the previous?**
+- 745: 7>4... but 4<5, so NO
+
+**Middle digit is smallest?**
+- 687: middle=8, not smallest
+- 745: middle=4, smallest (4<7, 4<5) → YES
+- 508: middle=0, smallest (0<5, 0<8) → but NO!
+
+Hmm, that doesn",NO,True,,6.719,2026-04-20T03:36:54Z
+rule_021,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 313: NO
+- 232: NO
+- 69: NO
+- 603: NO
+
+Is 8893 a frog-number? Answer only YES or NO.",YES,NO,NO,False,wrong_answer,1.018,2026-04-20T03:36:55Z
+rule_022,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 72: NO
+- 775: NO
+- 331: NO
+- 68: YES
+
+Is 831 a frog-number? Answer only YES or NO.",YES,"I need to find the pattern that makes 68 a YES and the others NO.
+
+Let me analyze the numbers:
+- 72: NO
+- 775: NO
+- 331: NO
+- 68: YES
+
+Let me think about what's special about 68.
+
+6 × 8 = 48... 6 + 8 = 14... 
+
+Let me think about digit properties:
+- 68: digits are 6 and 8 (both even)
+- 72: digits are 7 and 2 (one odd, one even)
+- 775: digits are 7, 7, 5 (all odd)
+- 331: digits are 3, 3, 1 (all odd)
+
+68 has ALL EVEN digits, while the others don't.
+
+Check 831: digits are 8, 3, 1 — not all even.
+
+**NO**",YES,True,,4.693,2026-04-20T03:37:00Z
+rule_023,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 608: YES
+- 498: NO
+- 524: NO
+- 951: NO
+
+Is 8711 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the digits of each number:
+
+- 608: YES → digits 6, 0, 8
+- 498: NO → digits 4, 9, 8
+- 524: NO → digits 5, 2, 4
+- 951: NO → digits 9, 5, 1
+
+Let me think about what's special about 608...
+
+Looking at products of digits:
+- 608: 6×0×8 = 0
+- 498: 4×9×8 = 288
+- 524: 5×2×4 = 40
+- 951: 9×5×1 = 45
+
+608 has a 0 digit, making the product 0. But that seems too simple.
+
+Let me think about ""frog"" - frogs jump, maybe alternating up/down pattern?
+
+- 608: 6→0 (down), 0→8 (up) → down then up ✓
+- 498: 4→9 (up), 9→8 (down) → up then down ✗
+- 524: 5→2 (down), 2→4 (up) → down then up ✓ (but NO)
+
+That doesn't work.
+
+Let me think about divisibility or sum:
+- 608: 6+0+8 = 14
+- 498: 4+9+8 = 21
+- 524: 5+2+4 = 11
+- 951: 9+5+1 = 15
+
+Hmm, 14 is even, others are odd... but 11 is also odd and NO.",YES,False,wrong_answer,5.798,2026-04-20T03:37:06Z
+rule_024,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 171: NO
+- 68: YES
+- 993: NO
+- 530: YES
+
+Is 1322 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 171: NO
+- 68: YES
+- 993: NO
+- 530: YES
+
+Let me try various properties:
+
+**Sum of digits:**
+- 171: 1+7+1 = 9 (NO)
+- 68: 6+8 = 14 (YES)
+- 993: 9+9+3 = 21 (NO)
+- 530: 5+3+0 = 8 (YES)
+
+**Product of digits:**
+- 171: 1×7×1 = 7 (NO)
+- 68: 6×8 = 48 (YES)
+- 993: 9×9×3 = 243 (NO)
+- 530: 5×3×0 = 0 (YES)
+
+Hmm, product doesn't seem to have an obvious pattern.
+
+**Even/Odd:**
+- 171: odd (NO)
+- 68: even (YES)
+- 993: odd (NO)
+- 530: even (YES)
+
+All YES numbers are even, all NO numbers are odd! Let me check 1322:
+1322 is even.
+
+**YES**",NO,False,wrong_answer,4.209,2026-04-20T03:37:10Z
+rule_025,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 881: NO
+- 200: YES
+- 80: YES
+- 619: YES
+
+Is 1123 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule that makes a number a ""frog-number.""
+
+Let me analyze the examples:
+- 881: NO
+- 200: YES
+- 80: YES
+- 619: YES
+
+Let me think about what 200, 80, and 619 have in common that 881 doesn't.
+
+Let me check if the digits sum to something:
+- 881: 8+8+1 = 17
+- 200: 2+0+0 = 2
+- 80: 8+0 = 8
+- 619: 6+1+9 = 16
+
+Hmm, not obvious.
+
+Let me check if any digit is 0:
+- 200: YES (has 0) ✓
+- 80: YES (has 0) ✓
+- 619: NO (no 0) - but it's YES, so that's not it.
+
+Let me think about ""frog"" - frogs jump. Maybe it relates to jumping/skipping.
+
+Let me check divisibility:
+- 200 ÷ 8 = 25 ✓
+- 80 ÷ 8 = 10 ✓
+- 619 ÷ 8 = 77.375 ✗
+
+Let me try another approach - maybe the digits contain a ""leap"" pattern or the number contains consecutive digits:
+- 619: 6,1,9 - not consecutive
+- 200: 2,0,0
+- 80: 8,0
+
+What about the number being divisible by something related to ""frog""?
+
+Let me try: does the number contain the digit sequence that spells something?
+
+What if it's",NO,True,,7.091,2026-04-20T03:37:17Z
+rule_026,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 701: YES
+- 892: NO
+- 250: NO
+- 423: NO
+
+Is 1974 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits of each number:
+
+- 701: YES → digits 7, 0, 1
+- 892: NO → digits 8, 9, 2
+- 250: NO → digits 2, 5, 0
+- 423: NO → digits 4, 2, 3
+
+Let me think about what's special about 701...
+
+Looking at the digits:
+- 701: 7, 0, 1 — contains a 0
+- 250: 2, 5, 0 — contains a 0 but is NO
+
+Let me think about other properties:
+- 701 is prime
+- 892 = 8 × 111 + 4... not prime
+- 250 = 2 × 125, not prime
+- 423 = 3 × 141, not prime
+
+So maybe frog-numbers are prime numbers? Let me verify:
+- 701: prime? 701 / 7 = 100.1, /11 = 63.7, /13 = 53.9, /17 = 41.2, /19 = 36.9, /23 = 30.5... √701 ≈ 26.5. Yes, 701 is prime. ✓
+- 892: even, not prime ✓
+- 250: even, not prime ✓
+- 423: 4+2+3=9, divisible by 3, not prime ✓
+
+Now check 1974:
+1974 is even (ends in 4), so it's divisible by 2. Not prime.
+
+NO",YES,False,wrong_answer,6.657,2026-04-20T03:37:24Z
+rule_027,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 974: YES
+- 921: YES
+- 593: NO
+- 262: YES
+
+Is 9495 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 974: YES
+- 921: YES
+- 593: NO
+- 262: YES
+
+Let me think about what makes these ""frog numbers."" Frogs jump, so maybe the digits alternate up-down or down-up (like a frog jumping).
+
+Let me check if digits alternate (go up then down, or down then up):
+
+- 974: 9→7 (down), 7→4 (down) — not alternating
+- 921: 9→2 (down), 2→1 (down) — not alternating
+- 262: 2→6 (up), 6→2 (down) — alternating! YES
+- 593: 5→9 (up), 9→3 (down) — alternating, but this is NO
+
+Let me think differently. Maybe it's about the digits containing specific numbers, or divisibility.
+
+Let me try: sum of digits divisible by something?
+- 974: 9+7+4 = 20
+- 921: 9+2+1 = 12
+- 593: 5+9+3 = 17
+- 262: 2+6+2 = 10
+
+Hmm, 20, 12, 10 are even; 17 is odd. Maybe even digit sum?
+
+Check 9495: 9+4+9+5 = 27 (odd) → NO?
+
+But let me verify the rule more carefully. Even digit sums: 974=20✓, 921=12✓, 262=10✓, 593=17✗. This fits!
+
+For 9",YES,False,wrong_answer,7.367,2026-04-20T03:37:31Z
+rule_028,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 618: NO
+- 50: NO
+- 644: YES
+- 93: YES
+
+Is 6878 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 618: NO
+- 50: NO
+- 644: YES
+- 93: YES
+
+Let me think about what makes 644 and 93 special.
+
+Let me try various properties:
+
+**Sum of digits:**
+- 618: 6+1+8 = 15
+- 50: 5+0 = 5
+- 644: 6+4+4 = 14
+- 93: 9+3 = 12
+
+**Product of digits:**
+- 618: 6×1×8 = 48
+- 50: 5×0 = 0
+- 644: 6×4×4 = 96
+- 93: 9×3 = 27
+
+**Divisibility:**
+- 644: divisible by 4? 644/4 = 161. Yes.
+- 93: divisible by 4? No.
+
+Let me think about ""frog"" - maybe it relates to jumping or leaping patterns.
+
+**Digits contain a repeated digit:**
+- 618: no repeats → NO ✓
+- 50: no repeats → NO ✓
+- 644: has two 4s → YES ✓
+- 93: no repeats → NO ✗
+
+That doesn't work for 93.
+
+**Maybe the number contains a perfect square digit or the number itself relates to squares:**
+- 93 = 3 × 31... not obvious
+
+**Let me try: digits include a digit that appears more than once OR digits sum to a multiple of 3:**
+- 618: 6+1+8=15 (mult of",NO,True,,6.764,2026-04-20T03:37:38Z
+rule_029,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 683: NO
+- 607: NO
+- 588: NO
+- 545: YES
+
+Is 5193 a frog-number? Answer only YES or NO.",YES,"I need to find the pattern that makes a number a frog-number.
+
+Let me analyze the examples:
+- 683: NO
+- 607: NO
+- 588: NO
+- 545: YES
+
+Let me look at 545:
+- Digits: 5, 4, 5
+- Sum of digits: 14
+- Product of digits: 100
+- It's a palindrome!
+
+Check if palindrome works:
+- 683: not a palindrome → NO ✓
+- 607: not a palindrome → NO ✓
+- 588: not a palindrome → NO ✓
+- 545: palindrome → YES ✓
+
+Now check 5193:
+- Digits: 5, 1, 9, 3
+- Reversed: 3, 9, 1, 5
+- 5193 ≠ 3915, so NOT a palindrome.
+
+**NO**",NO,False,wrong_answer,3.686,2026-04-20T03:37:41Z
+rule_030,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 967: YES
+- 277: YES
+- 219: YES
+- 695: YES
+
+Is 5157 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits of each number:
+- 967: 9, 6, 7
+- 277: 2, 7, 7
+- 219: 2, 1, 9
+- 695: 6, 9, 5
+
+Let me think about what these have in common.
+
+Check if digits sum to something:
+- 967: 9+6+7 = 22
+- 277: 2+7+7 = 16
+- 219: 2+1+9 = 12
+- 695: 6+9+5 = 20
+
+No obvious pattern in sums.
+
+Let me check if any digit is repeated or if digits are odd/even:
+- 967: odd, even, odd
+- 277: even, odd, odd
+- 219: even, odd, odd
+- 695: even, odd, odd
+
+Let me think about ""frog"" - frogs jump. Maybe the digits alternate or have some jumping pattern.
+
+Let me check differences between consecutive digits:
+- 967: |9-6|=3, |6-7|=1
+- 277: |2-7|=5, |7-7|=0
+- 219: |2-1|=1, |1-9|=8
+- 695: |6-9|=3, |9-5|=4
+
+Maybe the middle digit is less than both outer digits (valley)?
+- 967: 6 < 9 and 6 < 7 ✓
+- 277: 7 < 2? NO ✗
+
+Maybe the middle digit is greater than both outer digits (peak)?",NO,False,wrong_answer,6.821,2026-04-20T03:37:48Z
+rule_031,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 254: NO
+- 281: NO
+- 415: YES
+- 144: NO
+
+Is 4925 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers:
+- 254: NO
+- 281: NO
+- 415: YES
+- 144: NO
+
+Let me try various operations on the digits.
+
+For 415: 4 × 1 × 5 = 20, 4+1+5 = 10, 4²+1²+5² = 42
+For 254: 2 × 5 × 4 = 40, 2+5+4 = 11, 4+25+16 = 45
+For 281: 2 × 8 × 1 = 16, 2+8+1 = 11
+For 144: 1 × 4 × 4 = 16, 1+4+4 = 9
+
+Let me think about ""frog"" - frogs jump, leap... maybe related to perfect squares or leap?
+
+Let me try: is the number a perfect square times something? 
+- 415: not obvious
+
+What if the digits contain a perfect square sequence or the number itself relates to squares?
+- 144 = 12² but it's NO... interesting.
+
+Let me try: product of digits is a perfect square?
+- 415: 4×1×5 = 20, not a perfect square
+- 254: 2×5×4 = 40, not a perfect square
+- 281: 2×8×1 = 16 = 4², perfect square but NO
+- 144: 1×4×4 = 16 = 4², perfect square but NO
+
+What about sum of squares of digits?
+- 415: 16+1+25",NO,False,wrong_answer,8.027,2026-04-20T03:37:56Z
+rule_032,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 478: NO
+- 333: NO
+- 961: YES
+- 779: NO
+
+Is 1198 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the numbers that are YES vs NO.
+
+YES: 961
+NO: 478, 333, 779
+
+Let me think about properties of 961:
+- 961 = 31² (perfect square)
+- Digits: 9, 6, 1
+- 9+6+1 = 16
+- 9×6×1 = 54
+
+Let me check if it's about perfect squares:
+- 478: not a perfect square
+- 333: not a perfect square
+- 961: 31² = 961 ✓ YES
+- 779: not a perfect square
+
+So the rule might be: the number is a perfect square.
+
+Now check 1198:
+- √1198 ≈ 34.6... 
+- 34² = 1156, 35² = 1225
+- 1198 is not a perfect square.
+
+**NO**",YES,False,wrong_answer,5.017,2026-04-20T03:38:01Z
+rule_033,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 19: YES
+- 479: YES
+- 646: YES
+- 586: NO
+
+Is 1648 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 19: YES → 1, 9
+- 479: YES → 4, 7, 9
+- 646: YES → 6, 4, 6
+- 586: NO → 5, 8, 6
+
+Let me think about what property these share...
+
+Let me try looking at the sum of digits:
+- 19: 1+9 = 10
+- 479: 4+7+9 = 20
+- 646: 6+4+6 = 16
+- 586: 5+8+6 = 19
+
+Hmm, not obvious.
+
+Let me try products:
+- 19: 1×9 = 9
+- 479: 4×7×9 = 252
+- 646: 6×4×6 = 144
+- 586: 5×8×6 = 240
+
+Let me think about perfect squares: 9=3², 144=12², 252 not square, 240 not square. That doesn't work for 479.
+
+Let me try another approach - maybe it's about the number itself being divisible by something, or a property of digit pairs.
+
+Let me try: consecutive digits differ by a certain amount, or digits are a ""leap"" pattern.
+
+""Frog"" - maybe digits alternate up-down or the number ""jumps""?
+
+- 19: 1→9 (jump up 8)
+- 479: 4→7→9 (up 3, up 2) - monotone increasing
+- 646: 6→4→6 (down 2, up 2)
+-",YES,False,wrong_answer,7.374,2026-04-20T03:38:09Z
+rule_034,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 85: NO
+- 560: NO
+- 228: YES
+- 528: NO
+
+Is 4355 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the numbers:
+- 85: NO
+- 560: NO
+- 228: YES
+- 528: NO
+
+Let me try various properties:
+
+**Sum of digits:**
+- 85: 8+5=13
+- 560: 5+6+0=11
+- 228: 2+2+8=12
+- 528: 5+2+8=15
+
+**Product of digits:**
+- 85: 8×5=40
+- 560: 5×6×0=0
+- 228: 2×2×8=32
+- 528: 5×2×8=80
+
+**Divisibility:**
+- 228 ÷ 4 = 57 ✓
+- 85 ÷ 4 = 21.25 ✗
+- 560 ÷ 4 = 140 ✓ (but NO)
+
+**Divisible by 12:**
+- 228 ÷ 12 = 19 ✓
+- 85 ÷ 12 ✗
+- 560 ÷ 12 = 46.67 ✗
+- 528 ÷ 12 = 44 ✓ (but NO)
+
+**Divisible by 76:**
+- 228 ÷ 76 = 3 ✓
+- 528 ÷ 76 = 6.94 ✗
+
+**Contains a repeated digit:**
+- 228: has two 2s → YES
+- 85: no repeats → NO
+-",NO,True,,5.018,2026-04-20T03:38:14Z
+rule_035,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 145: YES
+- 965: YES
+- 367: YES
+- 912: YES
+
+Is 1137 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at 145, 965, 367, 912.
+
+Let me try various operations on the digits.
+
+**145:** digits 1, 4, 5
+**965:** digits 9, 6, 5
+**367:** digits 3, 6, 7
+**912:** digits 9, 1, 2
+
+Let me try: product of digits
+- 145: 1×4×5 = 20
+- 965: 9×6×5 = 270
+- 367: 3×6×7 = 126
+- 912: 9×1×2 = 18
+
+Let me try: sum of digits
+- 145: 1+4+5 = 10
+- 965: 9+6+5 = 20
+- 367: 3+6+7 = 16
+- 912: 9+1+2 = 12
+
+Let me try: sum of squares of digits
+- 145: 1+16+25 = 42
+- 965: 81+36+25 = 142
+- 367: 9+36+49 = 94
+- 912: 81+1+4 = 86
+
+Let me try: contains a perfect square digit (1, 4, 9)
+- 145: has 1, 4 ✓
+- 965: has 9 ✓
+- 367: has... 3,6,7 — none of 1,4,9. ✗
+
+Let me try: digits include a number that's a multiple of 3
+- 145: no (1,4,5 —",NO,False,wrong_answer,6.337,2026-04-20T03:38:20Z
+rule_036,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 910: YES
+- 260: YES
+- 388: NO
+- 301: YES
+
+Is 2594 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the numbers:
+- 910: YES
+- 260: YES
+- 388: NO
+- 301: YES
+
+Let me try various properties:
+
+**Sum of digits:**
+- 910: 9+1+0 = 10
+- 260: 2+6+0 = 8
+- 388: 3+8+8 = 19
+- 301: 3+0+1 = 4
+
+No obvious pattern.
+
+**Divisibility:**
+- 910 ÷ 2 = 455, ÷ 5 = 182, ÷ 7 = 130, ÷ 10 = 91, ÷ 13 = 70
+- 260 ÷ 4 = 65, ÷ 5 = 52, ÷ 13 = 20
+- 388 ÷ 4 = 97
+- 301 ÷ 7 = 43
+
+**Contains a digit that is a perfect square?** (0,1,4,9)
+- 910: has 9,1,0 → YES ✓
+- 260: has 0 → YES ✓
+- 388: has no 0,1,4,9 → NO ✓
+- 301: has 0,1 → YES ✓
+
+Let me verify: digits that are perfect squares: 0, 1, 4, 9.
+
+- 910: digits 9,1,0 — contains 9,1,0 → YES ✓
+- 260: digits",YES,True,,5.483,2026-04-20T03:38:25Z
+rule_037,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 458: NO
+- 863: NO
+- 566: NO
+- 730: YES
+
+Is 4966 a frog-number? Answer only YES or NO.",NO,"I need to find the pattern that makes 730 a frog-number while 458, 863, and 566 are not.
+
+Let me analyze the digits:
+- 458: 4, 5, 8 → NO
+- 863: 8, 6, 3 → NO
+- 566: 5, 6, 6 → NO
+- 730: 7, 3, 0 → YES
+
+Let me think about what's special about 730.
+
+Sum of digits: 458→17, 863→17, 566→17, 730→10. Not obvious.
+
+Product of digits: 458→160, 863→144, 566→180, 730→0. 730 has a 0, giving product 0.
+
+But let me think about other properties...
+
+Differences between digits:
+- 458: 5-4=1, 8-5=3
+- 863: 6-8=-2, 3-6=-3
+- 566: 6-5=1, 6-6=0
+- 730: 3-7=-4, 0-3=-3
+
+Hmm, let me think about ""frog"" - frogs jump. Maybe the digits increase then decrease or have a specific jump pattern?
+
+Let me try: digits contain a 0:
+- 730 has 0 → YES
+- Others don't → NO
+
+Now check 4966: digits are 4, 9, 6, 6 - no 0.
+
+But wait, let me think more carefully. Maybe it's about divisibility or some other rule.
+
+730 divisible by: 1,2,5,10,73... 730/10=73.",NO,True,,12.254,2026-04-20T03:38:38Z
+rule_038,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 636: NO
+- 836: NO
+- 679: YES
+- 551: NO
+
+Is 138 a frog-number? Answer only YES or NO.",YES,"I need to find the pattern from the examples.
+
+Let me analyze the digits:
+- 636: NO
+- 836: NO
+- 679: YES
+- 551: NO
+
+Let me look at various properties:
+
+For 679 (YES): 6, 7, 9
+For 636 (NO): 6, 3, 6
+For 836 (NO): 8, 3, 6
+For 551 (NO): 5, 5, 1
+
+Let me think about ""frog"" - frogs jump/leap. Maybe the digits are increasing?
+- 636: not increasing (NO ✓)
+- 836: not increasing (NO ✓)
+- 679: 6 < 7 < 9, increasing (YES ✓)
+- 551: not increasing (NO ✓)
+
+This pattern works! A frog-number has strictly increasing digits.
+
+For 138: 1 < 3 < 8 — strictly increasing.
+
+**YES**",NO,False,wrong_answer,4.801,2026-04-20T03:38:42Z
+rule_039,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 693: YES
+- 846: YES
+- 577: NO
+- 316: YES
+
+Is 1707 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the digits of each number:
+
+- 693: YES → digits 6, 9, 3
+- 846: YES → digits 8, 4, 6
+- 577: NO → digits 5, 7, 7
+- 316: YES → digits 3, 1, 6
+
+Let me look for patterns:
+
+**Divisibility:**
+- 693 ÷ 3 = 231 ✓
+- 846 ÷ 3 = 282 ✓
+- 577 ÷ 3 = 192.3... ✗
+- 316 ÷ 3 = 105.3... ✗
+
+That doesn't work for 316.
+
+**Sum of digits:**
+- 693: 6+9+3 = 18
+- 846: 8+4+6 = 18
+- 577: 5+7+7 = 19
+- 316: 3+1+6 = 10
+
+Hmm, not consistent.
+
+**Product of digits:**
+- 693: 6×9×3 = 162
+- 846: 8×4×6 = 192
+- 577: 5×7×7 = 245
+- 316: 3×1×6 = 18
+
+Let me check if product is divisible by something... 162, 192, 18 vs 245.
+- 162 = 2×81, 192 = 2×96, 18 = 2×9 → all even
+- 245 = 5×49 → odd
+
+**",YES,False,wrong_answer,5.426,2026-04-20T03:38:48Z
+rule_040,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 971: NO
+- 909: YES
+- 147: YES
+- 280: YES
+
+Is 1901 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 971: NO
+- 909: YES
+- 147: YES
+- 280: YES
+
+Let me think about what 909, 147, and 280 have in common that 971 doesn't.
+
+Let me check digit sums:
+- 971: 9+7+1 = 17
+- 909: 9+0+9 = 18
+- 147: 1+4+7 = 12
+- 280: 2+8+0 = 10
+
+Divisibility by 3: 18 yes, 12 yes, 10 no... that doesn't work.
+
+Let me think about products of digits:
+- 971: 9×7×1 = 63
+- 909: 9×0×9 = 0
+- 147: 1×4×7 = 28
+- 280: 2×8×0 = 0
+
+Hmm, 909 and 280 have 0 as a digit. 147 doesn't.
+
+Let me think about whether digits are in some order or relationship.
+
+Let me check if any digit is the sum of others:
+- 909: 9+0=9 ✓ (last digit = sum of first two)
+- 147: 1+4=5 ≠ 7... but 4+7=11≠1... 1+7=8≠4
+- 280: 2+8=10≠0... 
+
+Let me try: does any digit equal another digit?
+- 909: 9 appears twice ✓
+- 147: all different",NO,True,,6.859,2026-04-20T03:38:55Z
+rule_041,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 921: YES
+- 119: NO
+- 770: YES
+- 576: YES
+
+Is 2556 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 921: YES
+- 119: NO
+- 770: YES
+- 576: YES
+
+Let me try various rules:
+
+**Sum of digits:**
+- 921: 9+2+1 = 12
+- 119: 1+1+9 = 11
+- 770: 7+7+0 = 14
+- 576: 5+7+6 = 18
+
+No obvious pattern there.
+
+**Product of digits:**
+- 921: 9×2×1 = 18
+- 119: 1×1×9 = 9
+- 770: 7×7×0 = 0
+- 576: 5×7×6 = 210
+
+Hmm, not obvious.
+
+**Divisibility:**
+- 921 ÷ 3 = 307 ✓
+- 119 ÷ 7 = 17 ✓ (not div by 3)
+- 770 ÷ 7 = 110, ÷ 5 = 154, ÷ 2 = 385... 770 ÷ 7 = 110
+- 576 ÷ 2 = 288...
+
+Let me try: contains a digit that is a frog (leap)... 
+
+**Let me try: digits contain a pair that sums to a specific value, or consecutive digits...**
+
+Let me try: any two adjacent digits sum to 10 or more, or some digit relationship.
+- 921: 9+2=11, 2+1=3
+-",YES,True,,6.350,2026-04-20T03:39:01Z
+rule_042,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 288: YES
+- 298: NO
+- 629: NO
+- 225: NO
+
+Is 5627 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the digits of each number:
+
+- 288: YES
+- 298: NO
+- 629: NO
+- 225: NO
+
+Let me try various rules:
+
+**Product of digits:**
+- 288: 2×8×8 = 128
+- 298: 2×9×8 = 144
+- 629: 6×2×9 = 108
+- 225: 2×2×5 = 20
+
+**Sum of digits:**
+- 288: 2+8+8 = 18
+- 298: 2+9+8 = 19
+- 629: 6+2+9 = 17
+- 225: 2+2+5 = 9
+
+**Divisibility:**
+- 288 ÷ 2 = 144 = 12² (perfect square!)
+- 298: not obviously special
+- 288 is divisible by... let me think differently.
+
+**Is the number divisible by the product of its digits?**
+- 288 ÷ (2×8×8) = 288/128 = 2.25 — No
+- 288 ÷ (2+8+8) = 288/18 = 16 ✓ (integer!)
+- 298 ÷ (2+9+8) = 298/19 = 15.68... ✗
+- 629 ÷ (6+2+9) = 629/17 = 37 ✓ — but this is NO...
+
+That doesn't work.
+
+**Is the number a multiple of each of its",YES,True,,5.735,2026-04-20T03:39:07Z
+rule_043,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 218: NO
+- 713: NO
+- 659: YES
+- 883: NO
+
+Is 4335 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits of each number:
+
+- 218: NO
+- 713: NO
+- 659: YES
+- 883: NO
+
+Let me think about what's special about 659.
+
+Checking if any digit is a perfect square: 
+- 218: 1 is not... wait, let me think differently.
+
+Let me check if digits include a ""frog-like"" property. Frogs jump, so maybe alternating up-down pattern?
+
+- 218: 2→1 (down), 1→8 (up) - down then up: YES pattern? But it's NO.
+- 659: 6→5 (down), 5→9 (up) - down then up: same pattern, but YES.
+
+Let me try another approach - maybe the digits sum or product.
+
+- 218: 2+1+8=11, 2×1×8=16
+- 713: 7+1+3=11, 7×1×3=21
+- 659: 6+5+9=20, 6×5×9=270
+- 883: 8+8+3=19, 8×8×3=192
+
+Hmm, 218 and 713 both sum to 11. Let me think about prime digits.
+
+Prime digits are 2, 3, 5, 7.
+- 218: 2 is prime (1 prime digit)
+- 713: 7, 3 are prime (2 prime digits)
+- 659: 5 is prime (1 prime digit... wait, also no 2,3,7... 5 is prime, that's 1",NO,True,,7.760,2026-04-20T03:39:15Z
+rule_044,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 527: YES
+- 510: YES
+- 267: NO
+- 937: NO
+
+Is 842 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 527: YES
+- 510: YES
+- 267: NO
+- 937: NO
+
+Let me think about what's special about 527 and 510 vs 267 and 937.
+
+Looking at consecutive digit differences:
+- 527: 5→2 (diff -3), 2→7 (diff +5)
+- 510: 5→1 (diff -4), 1→0 (diff -1)
+- 267: 2→6 (diff +4), 6→7 (diff +1)
+- 937: 9→3 (diff -6), 3→7 (diff +4)
+
+Hmm, let me think about ""frog"" - frogs jump. Maybe alternating up/down pattern?
+- 527: down then up ✓
+- 510: down then down ✗
+
+That doesn't work. Let me try another approach.
+
+Maybe it involves the digits themselves. Looking at which digits appear:
+- YES: 5,2,7 and 5,1,0
+- NO: 2,6,7 and 9,3,7
+
+Maybe the number contains a 5?
+- 527: has 5 ✓
+- 510: has 5 ✓
+- 267: no 5 ✓
+- 937: no 5 ✓
+
+842: no 5 → NO
+
+But let me verify this rule makes sense. ""Frog"" and 5... frogs have 5 fingers? Or maybe it's simpler - the number is divisible by 5?
+- 527: not",YES,True,,6.676,2026-04-20T03:39:21Z
+rule_045,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 104: NO
+- 659: YES
+- 443: NO
+- 859: YES
+
+Is 4543 a frog-number? Answer only YES or NO.",YES,"I need to find the hidden rule by analyzing the examples.
+
+Let me look at the digits:
+- 104: NO
+- 659: YES
+- 443: NO
+- 859: YES
+
+Let me check various properties:
+
+**Sum of digits:**
+- 104: 1+0+4 = 5 → NO
+- 659: 6+5+9 = 20 → YES
+- 443: 4+4+3 = 11 → NO
+- 859: 8+5+9 = 22 → YES
+
+Hmm, 20 and 22 are even, 5 and 11 are odd. That could be a rule!
+
+**Check: sum of digits is even**
+- 104: 5 (odd) → NO ✓
+- 659: 20 (even) → YES ✓
+- 443: 11 (odd) → NO ✓
+- 859: 22 (even) → YES ✓
+
+Now for 4543: 4+5+4+3 = 16 (even) → YES
+
+**YES**",NO,False,wrong_answer,3.903,2026-04-20T03:39:25Z
+rule_046,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 55: YES
+- 13: YES
+- 351: NO
+- 799: NO
+
+Is 2153 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+- 55: YES
+- 13: YES
+- 351: NO
+- 799: NO
+
+Let me look at properties of these numbers.
+
+55: digits 5, 5 → sum = 10, product = 25
+13: digits 1, 3 → sum = 4, product = 3
+351: digits 3, 5, 1 → sum = 9, product = 15
+799: digits 7, 9, 9 → sum = 25, product = 567
+
+Let me think about prime factors:
+- 55 = 5 × 11
+- 13 = 13 (prime)
+- 351 = 3³ × 13
+- 799 = 17 × 47
+
+Hmm, let me think about digit properties differently.
+
+55: 5+5=10, 5×5=25
+13: 1+3=4, 1×3=3
+351: 3+5+1=9, 3×5×1=15
+799: 7+9+9=25, 7×9×9=567
+
+Let me check if digits contain only odd digits:
+- 55: 5, 5 → all odd → YES ✓
+- 13: 1, 3 → all odd → YES ✓
+- 351: 3, 5, 1 → all odd → NO ✗ (this doesn't work)
+
+Let me think about consecutive digits or differences:
+- 55: |5-5| = 0
+- 13: |1-3| = 2
+- 351: |3-5|=2",YES,False,wrong_answer,5.709,2026-04-20T03:39:31Z
+rule_047,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 662: YES
+- 278: NO
+- 175: NO
+- 769: YES
+
+Is 7249 a frog-number? Answer only YES or NO.",YES,"I need to find the pattern that makes a number a ""frog-number.""
+
+Let me analyze the examples:
+- 662: YES
+- 278: NO
+- 175: NO
+- 769: YES
+
+Let me look at various properties:
+
+**662:** digits 6, 6, 2
+**769:** digits 7, 6, 9
+
+**278:** digits 2, 7, 8
+**175:** digits 1, 7, 5
+
+Let me try looking at the sum of digits:
+- 662: 6+6+2 = 14
+- 278: 2+7+8 = 17
+- 175: 1+7+5 = 13
+- 769: 7+6+9 = 22
+
+No obvious pattern there.
+
+Let me try products:
+- 662: 6×6×2 = 72
+- 278: 2×7×8 = 112
+- 175: 1×7×5 = 35
+- 769: 7×6×9 = 378
+
+Let me think about ""frog"" - frogs jump. Maybe alternating up/down pattern?
+
+662: 6→6→2: flat then down (NO pattern?)
+769: 7→6→9: down then up ✓ (valley)
+278: 2→7→8: up then up
+175: 1→7→5: up then down (peak)
+
+So YES numbers have a valley shape (middle digit is smallest)?
+- 662: 6,6,2 - not a valley
+- 769: 7,6,9 - yes, 6 is the minimum ✓
+
+Hmm, 662",YES,True,,7.080,2026-04-20T03:39:38Z
+rule_048,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 574: YES
+- 732: YES
+- 447: NO
+- 584: NO
+
+Is 168 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule by analyzing the examples.
+
+Let me examine the digits of each number:
+
+- 574: YES → digits 5, 7, 4
+- 732: YES → digits 7, 3, 2
+- 447: NO → digits 4, 4, 7
+- 584: NO → digits 5, 8, 4
+
+Let me look for patterns:
+
+**Differences between consecutive digits:**
+- 574: 7-5=2, 4-7=-3 → differences: 2, -3
+- 732: 3-7=-4, 2-3=-1 → differences: -4, -1
+- 447: 4-4=0, 7-4=3 → differences: 0, 3
+- 584: 8-5=3, 4-8=-4 → differences: 3, -4
+
+**Alternating up/down:**
+- 574: up then down → YES
+- 732: down then down → YES
+- 447: flat then up → NO
+- 584: up then down → NO
+
+That doesn't work cleanly.
+
+**Sum of digits:**
+- 574: 5+7+4=16 → YES
+- 732: 7+3+2=12 → YES
+- 447: 4+4+7=15 → NO
+- 584: 5+8+4=17 → NO
+
+Hmm, 16 and 12 are YES; 15 and 17 are NO. Even sums = YES, odd sums = NO?
+- 16 even → YES ✓
+- 12 even → YES ✓
+- 15",YES,False,wrong_answer,5.530,2026-04-20T03:39:44Z
+rule_049,rule_generalization,anthropic,claude-sonnet-4-6,"A number is a 'frog-number' based on a hidden rule. Examples:
+- 124: NO
+- 87: NO
+- 977: NO
+- 914: YES
+
+Is 2452 a frog-number? Answer only YES or NO.",NO,"I need to find the hidden rule that makes 914 a frog-number but not 124, 87, or 977.
+
+Let me analyze the digits:
+- 124: digits 1, 2, 4
+- 87: digits 8, 7
+- 977: digits 9, 7, 7
+- 914: digits 9, 1, 4
+
+Let me think about various properties...
+
+Looking at the digits of 914: 9, 1, 4
+- 9 + 1 + 4 = 14
+- 9 × 1 × 4 = 36
+- It's even
+
+Looking at 124: 1+2+4=7, 1×2×4=8
+Looking at 87: 8+7=15, 8×7=56
+Looking at 977: 9+7+7=23, 9×7×7=441
+
+Let me think about perfect squares in the digits:
+- 914: 9=3², 1=1², 4=2² → ALL digits are perfect squares!
+- 124: 1=1², 2 is not a perfect square, 4=2² → NO (2 fails)
+- 87: 8 is not a perfect square → NO
+- 977: 9=3², 7 is not a perfect square → NO
+
+This rule works! A frog-number has all digits that are perfect squares (0, 1, 4, 9).
+
+Now checking 2452:
+- 2: not a perfect square → fails
+
+**NO**",NO,True,,5.628,2026-04-20T03:39:49Z
+rephrase_000,rephrasing,anthropic,claude-sonnet-4-6,"A is north of B. B is north of C. Who is southernmost?
+Answer with only the key term or number.",C,C,c,True,,0.778,2026-04-20T03:39:50Z
+rephrase_001,rephrasing,anthropic,claude-sonnet-4-6,"C lies south of B, and B lies south of A. Which of A, B, C is most southern?
+Answer with only the key term or number.",C,C,c,True,,1.127,2026-04-20T03:39:51Z
+rephrase_002,rephrasing,anthropic,claude-sonnet-4-6,"Given: A->north->B, B->north->C. Identify the person farthest south.
+Answer with only the key term or number.",C,A,a,False,wrong_answer,0.857,2026-04-20T03:39:52Z
+rephrase_003,rephrasing,anthropic,claude-sonnet-4-6,"All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,1.082,2026-04-20T03:39:53Z
+rephrase_004,rephrasing,anthropic,claude-sonnet-4-6,"Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,0.658,2026-04-20T03:39:54Z
+rephrase_005,rephrasing,anthropic,claude-sonnet-4-6,"Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?
+Answer with only the key term or number.",NO,No,NO,True,,0.645,2026-04-20T03:39:54Z
+rephrase_006,rephrasing,anthropic,claude-sonnet-4-6,"If it rains, the ground is wet. The ground is wet. Did it rain?
+Answer with only the key term or number.",NO,Not necessarily.,not necessarily.,False,wrong_format,1.302,2026-04-20T03:39:56Z
+rephrase_007,rephrasing,anthropic,claude-sonnet-4-6,"Rain implies wet ground. The ground is currently wet. Can we conclude it rained?
+Answer with only the key term or number.",NO,No,NO,True,,0.817,2026-04-20T03:39:56Z
+rephrase_008,rephrasing,anthropic,claude-sonnet-4-6,"Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?
+Answer with only the key term or number.",NO,No,NO,True,,0.732,2026-04-20T03:39:57Z
+rephrase_009,rephrasing,anthropic,claude-sonnet-4-6,"Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?
+Answer with only the key term or number.",10,10,10,True,,0.841,2026-04-20T03:39:58Z
+rephrase_010,rephrasing,anthropic,claude-sonnet-4-6,"Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?
+Answer with only the key term or number.",10,10,10,True,,2.114,2026-04-20T03:40:00Z
+rephrase_011,rephrasing,anthropic,claude-sonnet-4-6,"Let B=5. Sam's apples S = 2B. Compute S.
+Answer with only the key term or number.",10,10,10,True,,0.920,2026-04-20T03:40:01Z
+rephrase_012,rephrasing,anthropic,claude-sonnet-4-6,"A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?
+Answer with only the key term or number.",120,120 miles,120,True,,0.717,2026-04-20T03:40:02Z
+rephrase_013,rephrasing,anthropic,claude-sonnet-4-6,"Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?
+Answer with only the key term or number.",120,120 miles,120,True,,1.439,2026-04-20T03:40:03Z
+rephrase_014,rephrasing,anthropic,claude-sonnet-4-6,"speed=60, time=2, distance=?
+Answer with only the key term or number.",120,120,120,True,,1.019,2026-04-20T03:40:04Z
+rephrase_015,rephrasing,anthropic,claude-sonnet-4-6,"A is north of B. B is north of C. Who is southernmost?
+Answer with only the key term or number.",C,C,c,True,,0.716,2026-04-20T03:40:05Z
+rephrase_016,rephrasing,anthropic,claude-sonnet-4-6,"C lies south of B, and B lies south of A. Which of A, B, C is most southern?
+Answer with only the key term or number.",C,C,c,True,,1.127,2026-04-20T03:40:06Z
+rephrase_017,rephrasing,anthropic,claude-sonnet-4-6,"Given: A->north->B, B->north->C. Identify the person farthest south.
+Answer with only the key term or number.",C,A,a,False,wrong_answer,1.025,2026-04-20T03:40:07Z
+rephrase_018,rephrasing,anthropic,claude-sonnet-4-6,"All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,1.291,2026-04-20T03:40:08Z
+rephrase_019,rephrasing,anthropic,claude-sonnet-4-6,"Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,0.964,2026-04-20T03:40:09Z
+rephrase_020,rephrasing,anthropic,claude-sonnet-4-6,"Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?
+Answer with only the key term or number.",NO,No,NO,True,,1.143,2026-04-20T03:40:10Z
+rephrase_021,rephrasing,anthropic,claude-sonnet-4-6,"If it rains, the ground is wet. The ground is wet. Did it rain?
+Answer with only the key term or number.",NO,Not necessarily.,not necessarily.,False,wrong_format,1.311,2026-04-20T03:40:12Z
+rephrase_022,rephrasing,anthropic,claude-sonnet-4-6,"Rain implies wet ground. The ground is currently wet. Can we conclude it rained?
+Answer with only the key term or number.",NO,No,NO,True,,0.717,2026-04-20T03:40:12Z
+rephrase_023,rephrasing,anthropic,claude-sonnet-4-6,"Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?
+Answer with only the key term or number.",NO,No,NO,True,,1.906,2026-04-20T03:40:14Z
+rephrase_024,rephrasing,anthropic,claude-sonnet-4-6,"Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?
+Answer with only the key term or number.",10,10,10,True,,0.756,2026-04-20T03:40:15Z
+rephrase_025,rephrasing,anthropic,claude-sonnet-4-6,"Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?
+Answer with only the key term or number.",10,10,10,True,,1.128,2026-04-20T03:40:16Z
+rephrase_026,rephrasing,anthropic,claude-sonnet-4-6,"Let B=5. Sam's apples S = 2B. Compute S.
+Answer with only the key term or number.",10,10,10,True,,1.023,2026-04-20T03:40:17Z
+rephrase_027,rephrasing,anthropic,claude-sonnet-4-6,"A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?
+Answer with only the key term or number.",120,120 miles,120,True,,0.844,2026-04-20T03:40:18Z
+rephrase_028,rephrasing,anthropic,claude-sonnet-4-6,"Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?
+Answer with only the key term or number.",120,120 miles,120,True,,1.553,2026-04-20T03:40:20Z
+rephrase_029,rephrasing,anthropic,claude-sonnet-4-6,"speed=60, time=2, distance=?
+Answer with only the key term or number.",120,120,120,True,,1.187,2026-04-20T03:40:21Z
+rephrase_030,rephrasing,anthropic,claude-sonnet-4-6,"A is north of B. B is north of C. Who is southernmost?
+Answer with only the key term or number.",C,C,c,True,,1.433,2026-04-20T03:40:22Z
+rephrase_031,rephrasing,anthropic,claude-sonnet-4-6,"C lies south of B, and B lies south of A. Which of A, B, C is most southern?
+Answer with only the key term or number.",C,C,c,True,,1.091,2026-04-20T03:40:23Z
+rephrase_032,rephrasing,anthropic,claude-sonnet-4-6,"Given: A->north->B, B->north->C. Identify the person farthest south.
+Answer with only the key term or number.",C,A,a,False,wrong_answer,0.779,2026-04-20T03:40:24Z
+rephrase_033,rephrasing,anthropic,claude-sonnet-4-6,"All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,2.904,2026-04-20T03:40:27Z
+rephrase_034,rephrasing,anthropic,claude-sonnet-4-6,"Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,0.860,2026-04-20T03:40:28Z
+rephrase_035,rephrasing,anthropic,claude-sonnet-4-6,"Premise 1: bloop subset-of zlorp. Premise 2: some zlorp in grint. Conclusion valid?
+Answer with only the key term or number.",NO,No,NO,True,,0.786,2026-04-20T03:40:29Z
+rephrase_036,rephrasing,anthropic,claude-sonnet-4-6,"If it rains, the ground is wet. The ground is wet. Did it rain?
+Answer with only the key term or number.",NO,Not necessarily.,not necessarily.,False,wrong_format,2.598,2026-04-20T03:40:31Z
+rephrase_037,rephrasing,anthropic,claude-sonnet-4-6,"Rain implies wet ground. The ground is currently wet. Can we conclude it rained?
+Answer with only the key term or number.",NO,No,NO,True,,0.912,2026-04-20T03:40:32Z
+rephrase_038,rephrasing,anthropic,claude-sonnet-4-6,"Given: rain -> wet_ground. Observed: wet_ground. Infer: did it rain necessarily?
+Answer with only the key term or number.",NO,No,NO,True,,1.913,2026-04-20T03:40:34Z
+rephrase_039,rephrasing,anthropic,claude-sonnet-4-6,"Sam has twice as many apples as Ben. Ben has 5. How many does Sam have?
+Answer with only the key term or number.",10,10,10,True,,1.159,2026-04-20T03:40:35Z
+rephrase_040,rephrasing,anthropic,claude-sonnet-4-6,"Ben owns 5 apples. Sam owns double that amount. What is Sam's apple count?
+Answer with only the key term or number.",10,10,10,True,,1.071,2026-04-20T03:40:36Z
+rephrase_041,rephrasing,anthropic,claude-sonnet-4-6,"Let B=5. Sam's apples S = 2B. Compute S.
+Answer with only the key term or number.",10,10,10,True,,0.832,2026-04-20T03:40:37Z
+rephrase_042,rephrasing,anthropic,claude-sonnet-4-6,"A train leaves at 3pm going 60mph. After 2 hours, how far has it traveled?
+Answer with only the key term or number.",120,120 miles,120,True,,1.334,2026-04-20T03:40:39Z
+rephrase_043,rephrasing,anthropic,claude-sonnet-4-6,"Departing 3pm at constant 60 miles/hour -- distance covered in 2 hours?
+Answer with only the key term or number.",120,120 miles,120,True,,0.972,2026-04-20T03:40:40Z
+rephrase_044,rephrasing,anthropic,claude-sonnet-4-6,"speed=60, time=2, distance=?
+Answer with only the key term or number.",120,120,120,True,,1.423,2026-04-20T03:40:41Z
+rephrase_045,rephrasing,anthropic,claude-sonnet-4-6,"A is north of B. B is north of C. Who is southernmost?
+Answer with only the key term or number.",C,C,c,True,,4.199,2026-04-20T03:40:45Z
+rephrase_046,rephrasing,anthropic,claude-sonnet-4-6,"C lies south of B, and B lies south of A. Which of A, B, C is most southern?
+Answer with only the key term or number.",C,C,c,True,,1.227,2026-04-20T03:40:46Z
+rephrase_047,rephrasing,anthropic,claude-sonnet-4-6,"Given: A->north->B, B->north->C. Identify the person farthest south.
+Answer with only the key term or number.",C,A,a,False,wrong_answer,0.905,2026-04-20T03:40:47Z
+rephrase_048,rephrasing,anthropic,claude-sonnet-4-6,"All bloops are zlorps. Some zlorps are grints. Does it follow that some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,1.053,2026-04-20T03:40:48Z
+rephrase_049,rephrasing,anthropic,claude-sonnet-4-6,"Every bloop is a zlorp. A portion of zlorps are grints. Can we conclude some bloops are grints?
+Answer with only the key term or number.",NO,No,NO,True,,0.911,2026-04-20T03:40:49Z
